@@ -17,6 +17,9 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
+    "typeface-archivo-black": "^1.1.13",
+    "typeface-roboto": "^1.1.13",
+    "typeface-saira": "^1.1.13",
     "typewriter-effect": "^2.13.1"
   },
   "devDependencies": {

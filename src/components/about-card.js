@@ -9,7 +9,7 @@ const AboutCard = () => {
 		<div className={styles.card} id="story">
 			<div className={styles.story}>
 				<div className={styles.storyHeader}>
-					<img src={require('../images/headshot.png')} className={styles.headshot} />
+					<img src={require('../images/headshot.png')} className={styles.headshot} alt="headshot image" />
 					<h2>My Story</h2>
 				</div>
 				{/* LONG BIO */}
@@ -78,7 +78,7 @@ const AboutCard = () => {
 					<strong>{displayLongBio ? 'Read Less...' : 'Read More...'}</strong>
 				</button>
 			</div>
-			{/* {!displayLongBio && (
+			{true && (
 				<div className={styles.tech}>
 					<h2 className={styles.techHeader}>Tech Stack</h2>
 					<div className={styles.techList}>
@@ -103,9 +103,30 @@ const AboutCard = () => {
 						<div className={styles.techItems}>
 							<p>PostgreSQL</p>
 						</div>
+						<div className={styles.techItems}>
+							<p>HTML5</p>
+						</div>
+						<div className={styles.techItems}>
+							<p>CSS3</p>
+						</div>
+						<div className={styles.techItems}>
+							<p>ES6</p>
+						</div>
+						<div className={styles.techItems}>
+							<p>Heroku</p>
+						</div>
+						<div className={styles.techItems}>
+							<p>Netlify</p>
+						</div>
+						<div className={styles.techItems}>
+							<p>Git</p>
+						</div>
+						<div className={styles.techItems}>
+							<p>GitHub</p>
+						</div>
 					</div>
 				</div>
-			)} */}
+			)}
 		</div>
 	);
 };

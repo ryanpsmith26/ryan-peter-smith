@@ -11,7 +11,11 @@ new Typewriter('#typewriter', {
 const HeroArea = () => {
 	return (
 		<React.Fragment>
-			<img src={require('../images/outlier-wash-crop.jpeg')} className={styles.heroImg} />
+			<img
+				src={require('../images/outlier-wash-crop.jpeg')}
+				className={styles.heroImg}
+				alt="dev gazing out window"
+			/>
 			<div className={styles.heroText}>
 				<h1>Ryan P. Smith</h1>
 				<Typewriter

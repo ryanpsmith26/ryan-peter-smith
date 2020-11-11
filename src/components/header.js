@@ -5,13 +5,11 @@ import { Link } from 'gatsby';
 import NavMenu from './nav-menu';
 import styles from './header.module.css';
 
-const logo = require('../images/RPS/1.png');
-
 const Header = ({ siteTitle }) => (
 	<header>
-		<div className={styles.logoDiv}>
-			<Link to="/" className={styles.headerLogoLink}>
-				<img src={logo} alt="logo" className={styles.logoImg} />
+		<div>
+			<Link to="/">
+				<img src={require('../images/logo/1.png')} alt="logo" className={styles.logoImg} alt="logo" />
 			</Link>
 		</div>
 		<div className={styles.menuDiv}>
