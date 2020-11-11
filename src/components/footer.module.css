@@ -37,6 +37,7 @@ footer {
   border: none;
   border-radius: 50px;
   padding: 0 10px;
+  color: #d9d9d9;
 }
 
 .scrollTopBtn:focus {
@@ -44,5 +45,5 @@ footer {
 }
 
 .scrollTopBtn:hover {
-  background-color: #d9d9d9;
+  background-color: #1c1c1c;
 }
