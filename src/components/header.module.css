@@ -1,19 +1,31 @@
 /* HEADER */
 
-header {
-    background: none;
-    display: flex;
-		justify-content: space-between;
-    padding: 2em;
+.header {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  background-color: #d9d9d9;
+  transition: top 800ms;
 }
-  
+
+.headerHidden {
+  top: -100%;
+}
+
+.headerShown {
+  top: 0;
+}
+
 .logoImg {
-	  width: 100px;
-		border-radius: 5px;
-		box-shadow:
-			0 2px 2px rgba(0, 0, 0, 0.125), 0 15px 15px rgba(0, 0, 0, 0.135), 0 30px 30px rgba(0, 0, 0, 0.145), 0 45px 45px rgba(0, 0, 0, 0.155)
+  width: 50px;
+  border-radius: 5px;
+  box-shadow:
+    0 2px 2px rgba(0, 0, 0, 0.125), 0 15px 15px rgba(0, 0, 0, 0.135), 0 30px 30px rgba(0, 0, 0, 0.145), 0 45px 45px rgba(0, 0, 0, 0.155)
 }
-  
+
 .menuDiv {
-		align-self: center
+  align-self: center
 }
