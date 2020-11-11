@@ -4,14 +4,30 @@ import styles from './story-section.module.css';
 
 const StorySection = () => {
 	const [ displayLongBio, setDisplayLongBio ] = useState(false);
+	const shortBioBtnHighlight = !displayLongBio && styles.bioBtnHighlight;
+	const longBioBtnHighlight = displayLongBio && styles.bioBtnHighlight;
 
 	return (
-		// <div className={styles.storyDiv}>
 		<div className={styles.card} id="story">
-			<img src={require('../images/portrait.jpeg')} alt="portrait image" className={styles.portraitImg} />
+			<img src={require('../images/portrait.jpeg')} alt="portrait" className={styles.portraitImg} />
 
 			<div className={styles.story}>
-				<h2>My Story</h2>
+				<div className={styles.bioBtnDiv}>
+					<button
+						type="button"
+						className={`${styles.bioBtn} ${shortBioBtnHighlight}`}
+						onClick={() => setDisplayLongBio(false)}
+					>
+						<h2>Short Bio</h2>
+					</button>
+					<button
+						type="button"
+						className={`${styles.bioBtn} ${longBioBtnHighlight}`}
+						onClick={() => setDisplayLongBio(true)}
+					>
+						<h2>Long Bio</h2>
+					</button>
+				</div>
 				{/* LONG BIO */}
 				{displayLongBio && (
 					<div>
@@ -41,14 +57,15 @@ const StorySection = () => {
 						</p>
 						<p>
 							I’ve long had many passions and hobbies: [ cooking, brewing beer, roasting coffee, health
-							and fitness, music, woodworking, metalworking ], the array goes on. But they were just that…
+							and fitness, music, woodworking, metalworking ], the list goes on. But they were just that…
 							hobbies. I didn’t see a clear path, that made sense for me, to turn those things into a
 							fulfilling career.
 						</p>
 						<p>
-							Enter coding. I started teaching myself to code at the end of 2019. I very quickly grew to
-							love it. I loved what I was able to build. I loved learning new tools to make my projects
-							look beautiful and professional. And above all, I loved that it was always a puzzle.
+							<strong>Enter coding.</strong> I started teaching myself to code at the end of 2019. I very
+							quickly grew to love it. I loved what I was able to build. I loved learning new tools to
+							make my projects look beautiful and professional. And above all, I loved that it was always
+							a puzzle.
 						</p>
 						<p>
 							{' '}
@@ -74,12 +91,8 @@ const StorySection = () => {
 					new languages and technologies. There is not nearly enough time in the day to undertake all of the
 					things that I want to learn, but I’m doing my best!
 				</p>
-				<button onClick={() => setDisplayLongBio(!displayLongBio)}>
-					<strong>{displayLongBio ? 'Read Less...' : 'Read More...'}</strong>
-				</button>
 			</div>
 		</div>
-		// </div>
 	);
 };
 

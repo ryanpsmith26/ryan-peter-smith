@@ -10,6 +10,7 @@ const HeroSection = () => {
 				src={require('../images/outlier-wash-crop.jpeg')}
 				className={styles.heroImg}
 				alt="dev gazing out window"
+				loading="eager"
 			/>
 			<div className={styles.heroTextDiv}>
 				<h1>Ryan P. Smith</h1>
