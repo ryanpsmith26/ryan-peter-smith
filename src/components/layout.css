@@ -9,11 +9,8 @@ html {
 
 body {
   margin: 0;
-  background: rgb(63, 87, 105);
-  background: linear-gradient(90deg, rgba(63, 87, 105, 1) 20%, rgba(73, 101, 122, 1) 80%);
-  /* LIGHTER OPTION */
-  /* background: rgb(132, 145, 156);
-  background: linear-gradient(90deg, rgba(132, 145, 156, 1) 20%, rgba(147, 161, 173, 0.927608543417367) 80%); */
+  background: rgb(51, 51, 51);
+  background: linear-gradient(90deg, rgba(51, 51, 51, 1) 32%, rgba(64, 64, 64, 1) 75%);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
@@ -65,7 +62,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  color: #333;
+  color: inherit;
   text-decoration: none;
 }
 

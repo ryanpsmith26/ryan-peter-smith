@@ -1,10 +1,12 @@
 /* FOOTER */
 
+/* footer box encapsules scroll top btn */
 footer {
   display: flex;
   flex-direction: column;
 }
 
+/* footer div is entire colored footer area */
 .footerDiv {
   display: flex;
   justify-content: center;
@@ -13,11 +15,16 @@ footer {
   min-height: 150px;
   background-color: #d9d9d9;
   color: #404040;
-
+  font-size: 3rem;
 }
 
-.footerText {
-  opacity: 0.5;
+.footerDiv>* {
+  margin: 0 0.5em;
+}
+
+.footerDiv>*:hover,
+.footerDiv>*:focus {
+  opacity: 0.7;
 }
 
 .scrollTopBtnDiv {
@@ -29,7 +36,7 @@ footer {
   background: none;
   border: none;
   border-radius: 50px;
-  padding: 0 0.25em;
+  padding: 0 10px;
 }
 
 .scrollTopBtn:focus {
