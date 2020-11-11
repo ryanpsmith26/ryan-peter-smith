@@ -1,9 +1,9 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 
-import styles from './hero-area.module.css';
+import styles from './hero-section.module.css';
 
-const HeroArea = () => {
+const HeroSection = () => {
 	return (
 		<React.Fragment>
 			<img
@@ -25,4 +25,4 @@ const HeroArea = () => {
 	);
 };
 
-export default HeroArea;
+export default HeroSection;
