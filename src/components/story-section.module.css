@@ -31,7 +31,7 @@
 .bioBtn {
   background: none;
   border: none;
-  font-size: 2rem;
+  font-size: 1.875rem;
   color: inherit;
   border: none;
   border-radius: 50px;
@@ -40,11 +40,18 @@
 
 .bioBtnHighlight {
   background-color: #bfbfbf;
+  border: 1px solid #404040;
+}
+
+.bioBtn:hover,
+.bioBtn:focus {
+  background-color: #bfbfbf;
 }
 
 .bioBtn:focus {
   outline: none
 }
+
 
 .bioBtn>h2 {
   margin: 0

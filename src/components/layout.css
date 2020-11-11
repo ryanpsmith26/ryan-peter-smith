@@ -8,6 +8,7 @@ html {
 }
 
 body {
+  position: relative;
   margin: 0;
   background: rgb(51, 51, 51);
   background: linear-gradient(90deg, rgba(51, 51, 51, 1) 32%, rgba(64, 64, 64, 1) 75%);
@@ -21,6 +22,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+  overflow-x: hidden;
 }
 
 article,

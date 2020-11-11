@@ -7,20 +7,24 @@ import NavMenu from './nav-menu';
 import styles from './header.module.css';
 
 const Header = ({ siteTitle }) => {
+	const scrollTop = () => {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	};
+
 	const scrollY = useScrollPosition(60);
 	const headerVisible = scrollY > 375 ? styles.headerShown : styles.headerHidden;
 
 	return (
 		<header className={`${styles.header} ${headerVisible}`}>
 			<div>
-				<Link to="/">
+				<button type="button" onClick={scrollTop} className={styles.logoBtn}>
 					<img
 						src={require('../images/logo/lightgray.png')}
 						alt="logo"
 						className={styles.logoImg}
 						alt="logo"
 					/>
-				</Link>
+				</button>
 			</div>
 			<div className={styles.menuDiv}>
 				<NavMenu />
