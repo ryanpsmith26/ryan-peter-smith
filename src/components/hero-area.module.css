@@ -1,0 +1,13 @@
+/* HERO AREA */
+
+.heroImg {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.heroText {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem; 
+}

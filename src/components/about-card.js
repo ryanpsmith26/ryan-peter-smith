@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 
-const StoryTechCard = () => {
+import styles from './about-card.module.css';
+
+const AboutCard = () => {
 	const [ displayLongBio, setDisplayLongBio ] = useState(false);
 
 	return (
-		<div style={styles.card} id="story">
-			<div style={styles.story}>
-				<div style={styles.storyHeader}>
-					<img src={require('../images/headshot.png')} style={styles.headshot} />
+		<div className={styles.card} id="story">
+			<div className={styles.story}>
+				<div className={styles.storyHeader}>
+					<img src={require('../images/headshot.png')} className={styles.headshot} />
 					<h2>My Story</h2>
 				</div>
 				{/* LONG BIO */}
@@ -77,28 +79,28 @@ const StoryTechCard = () => {
 				</button>
 			</div>
 			{/* {!displayLongBio && (
-				<div style={styles.tech}>
-					<h2 style={styles.techHeader}>Tech Stack</h2>
-					<div style={styles.techList}>
-						<div style={styles.techItems}>
+				<div className={styles.tech}>
+					<h2 className={styles.techHeader}>Tech Stack</h2>
+					<div className={styles.techList}>
+						<div className={styles.techItems}>
 							<p>JavaScript</p>
 						</div>
-						<div style={styles.techItems}>
+						<div className={styles.techItems}>
 							<p>React</p>
 						</div>
-						<div style={styles.techItems}>
+						<div className={styles.techItems}>
 							<p>Redux</p>
 						</div>
-						<div style={styles.techItems}>
+						<div className={styles.techItems}>
 							<p>Node.js</p>
 						</div>
-						<div style={styles.techItems}>
+						<div className={styles.techItems}>
 							<p>Express</p>
 						</div>
-						<div style={styles.techItems}>
+						<div className={styles.techItems}>
 							<p>Sequelize ORM</p>
 						</div>
-						<div style={styles.techItems}>
+						<div className={styles.techItems}>
 							<p>PostgreSQL</p>
 						</div>
 					</div>
@@ -108,59 +110,4 @@ const StoryTechCard = () => {
 	);
 };
 
-export default StoryTechCard;
-
-const styles = {
-	card: {
-		display: 'flex',
-		backgroundColor: '#d9d9d9',
-		width: '80%',
-		margin: '0 auto',
-		padding: '2em',
-		borderRadius: '10px',
-		marginTop: '28%',
-		boxShadow:
-			'0 2px 2px rgba(0, 0, 0, 0.025), 0 15px 15px rgba(0, 0, 0, 0.135), 0 30px 30px rgba(0, 0, 0, 0.045), 0 45px 45px rgba(0, 0, 0, 0.055)',
-		overflow: 'scroll',
-		maxHeight: '500px'
-	},
-	story: {
-		// flexBasis: '60%',
-		paddingRight: '2em'
-	},
-	storyHeader: {
-		display: 'flex',
-		justifyContent: 'space-evenly',
-		color: '#404040'
-	},
-	headshot: {
-		width: '50px'
-	},
-	longBio: {
-		display: 'none'
-	},
-	tech: {
-		paddingLeft: '2em',
-		flexBasis: '40%',
-		borderLeft: '0.5px solid #5e5e5e'
-	},
-	techHeader: {
-		textAlign: 'center',
-		color: '#404040'
-	},
-	techList: {
-		display: 'flex',
-		flexWrap: 'wrap',
-		padding: 0,
-		margin: 0,
-		justifyContent: 'space-evenly'
-	},
-	techItems: {
-		backgroundColor: '#5e5e5e',
-		padding: '1em 1.33em 0',
-		color: '#fff',
-		margin: '0.8em 0.5em',
-		borderRadius: '10px',
-		fontWeight: 'bold'
-	}
-};
+export default AboutCard;

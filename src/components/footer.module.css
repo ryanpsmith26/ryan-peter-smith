@@ -1,0 +1,17 @@
+/* FOOTER */
+
+footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		min-height: 150px;
+		margin-top: 4em;
+    background-color: #bfbfbf;
+    color: #404040;
+    		
+}
+
+.footerText {
+    opacity: 0.5;
+}
