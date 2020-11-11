@@ -2,4 +2,4 @@
 
 Portfolio Website built with Gatsby.js and React.
 
-Work in progress...
+🚧 Under Construction 🚧
