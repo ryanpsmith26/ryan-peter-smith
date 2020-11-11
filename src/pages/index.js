@@ -7,7 +7,7 @@ import AboutSection from '../components/story-section';
 
 const IndexPage = () => (
 	<Layout>
-		<SEO title="Home" />
+		<SEO title="Portfolio" />
 		<HeroSection />
 		<AboutSection />
 	</Layout>
