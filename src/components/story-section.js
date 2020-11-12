@@ -43,17 +43,23 @@ const StorySection = () => {
 						</p>
 						<p>
 							I went on to obtain that Bachelor’s of Engineering degree in Mechanical Engineering. From
-							there, I worked in various mechanical roles for about five years. I got my start as a
-							Mechanical Inspector, in the field, for a consulting firm. I did that for a little under two
-							years and then moved on to be a junior Plant Engineer at a seafood processing facility in
-							Brooklyn. At about the ten month mark I was promoted to the position of lead Plant Engineer
-							[ link to rec ] of my facility. I spent a total of three years at that company.
+							there, I worked in various mechanical roles for about five years. I first worked as a
+							Mechanical Inspector, at a consulting firm, for a little under two years. I then went on to
+							work as the lead{' '}
+							<a
+								href="https://drive.google.com/file/d/11gUI3s0iBRkWkc5GZKaUOcLbCCHtwNtc/view?usp=sharing"
+								target="_blank"
+								className={styles.refLetterLink}
+							>
+								Plant Engineer of a seafood processing facility in Brooklyn
+							</a>{' '}
+							for three.
 						</p>
 						<p>
 							I loved learning the mechanics of things, but something was missing. My Dad raised me to
 							understand that if you enjoy what you do for work, you’ll never work a day in your life. At
 							both of my companies, I was good at what I was doing and enjoyed the things that I learned.
-							But I was still working.
+							<strong> But I was still working.</strong>
 						</p>
 						<p>
 							I’ve long had many passions and hobbies: [ cooking, brewing beer, roasting coffee, health
@@ -64,32 +70,35 @@ const StorySection = () => {
 						<p>
 							<strong>Enter coding.</strong> I started teaching myself to code at the end of 2019. I very
 							quickly grew to love it. I loved what I was able to build. I loved learning new tools to
-							make my projects look beautiful and professional. And above all, I loved that it was always
-							a puzzle.
+							make my projects look beautiful and professional. I loved that it was always a puzzle. And
+							above all, I loved learning <strong>the mechanics</strong> behind how this thing worked that
+							I had used for so many years... the web.
 						</p>
 						<p>
 							{' '}
 							After about a month of some tutorials and building simple projects, I was looking into the
-							best path for me to make a final career change. I landed on the bootcamp route, and was soon
-							admitted to Fullstack Academy’s Software Engineering Immersive. This proved to be the best
-							decision I’ve ever made in my life. I enjoyed every second of it, grueling as it was at
-							times. I saw some students occasionally get discouraged and beaten down by the intense
-							program. But for me, it was not work. I knew what it was like to put in long hours on
-							something that I didn’t deeply connect with. For me, this was not that. I woke up everyday
-							excited to learn and to build new things. My love of development drove me forward, during
-							this demanding program, and I know that it will continue drive me in my new career.
+							best path for myself to make a final career change. I landed on the bootcamp route, and was
+							soon admitted to Fullstack Academy’s Software Engineering Immersive.{' '}
+							<strong>This proved to be the best decision I’ve ever made in my life.</strong> I enjoyed
+							every second of it, grueling as it was at times. I saw some students occasionally get
+							discouraged and beaten down by the intense program. But for me, it was not work. I knew what
+							it was like to put in long hours on something that I didn’t deeply connect with. For me,
+							this was not that. I woke up everyday excited to learn and to build new things. My love of
+							development drove me forward, during this demanding program. I know that it will continue to
+							do so in my new career.
 						</p>
 					</div>
 				)}
 				{/* END LONG BIO */}
 				<p>
 					I’m immensely excited as I begin my journey as a professional Software Engineer. I’m a Full Stack
-					Engineer with a passion for the front end and elegant design. I greatly enjoy working with React,
-					Redux and CSS. I’m eager to dive deeper, and gain an even more fundamental knowledge, in these
-					areas. I'm also proficient in the Node.js backend and PostgreSQL rDMBS. With my bootcamp at
-					Fullstack Academy of Code behind me, I’m thrilled to have the time to widen my knowledge by learning
-					new languages and technologies. There is not nearly enough time in the day to undertake all of the
-					things that I want to learn, but I’m doing my best!
+					Engineer with a passion for the front end. I appreciate elegant visual design, as much as I do clean
+					code. My attention to detail is innate, and bleeds into everything I do. I'm constantly striving to
+					better myself as an engineer and developer. Some tech that I'm highly fond of includes React, Redux,
+					CSS and Express. I’m eager to dive deeper, and gain an even more fundamental knowledge, in these
+					(and similar!) tools. I'm also always on the look out for opportunities to learn brand new languages
+					and technologies. My goal is to be <strong>the best engineer I can possibly be</strong>, working on
+					tools and products that I believe in!
 				</p>
 			</div>
 		</div>

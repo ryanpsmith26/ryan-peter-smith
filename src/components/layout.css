@@ -283,6 +283,15 @@ textarea {
   font: inherit;
 }
 
+button {
+  border: none;
+  background: none;
+}
+
+button:focus {
+  outline: none
+}
+
 * {
   box-sizing: border-box;
 }

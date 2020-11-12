@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 import styles from './nav-menu.module.css';
 
@@ -12,22 +12,22 @@ const NavMenu = () => {
 				<ul>
 					<li>
 						<div className={styles.menuBtn}>
-							<Link to="/#story">My Story</Link>
+							<button onClick={() => scrollTo('#story')}>My Story</button>
 						</div>
 					</li>
 					<li>
 						<div className={styles.menuBtn}>
-							<Link to="/">Projects</Link>
+							<button onClick={() => scrollTo('#projects')}>Projects</button>
 						</div>
 					</li>
 					<li>
 						<div className={styles.menuBtn}>
-							<Link to="/">Experience</Link>
+							<button onClick={() => scrollTo('#experience')}>Experience</button>
 						</div>
 					</li>
 					<li>
 						<div className={styles.menuBtn}>
-							<Link to="/#footer">Contact</Link>
+							<button onClick={() => scrollTo('#footer')}>Contact</button>
 						</div>
 					</li>
 				</ul>

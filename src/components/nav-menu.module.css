@@ -17,14 +17,15 @@ li {
   /* margin: 0 1em; */
 }
 
+.menuBtn:focus {
+  /* outline: none; */
+}
+
 .menuBtn:hover,
 .menuBtn:focus {
   background-color: #bfbfbf;
 }
 
-.menuBtn:focus {
-  outline: none;
-}
 
 .menuIcon {
   margin: 0 0.45em 0.45em 0;

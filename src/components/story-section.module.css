@@ -56,9 +56,20 @@
   margin: 0
 }
 
+.refLetterLink {
+  color: #3a43c2;
+  /* font-weight: bold; */
+}
+
+.refLetterLink:hover,
+.refLetterLink:focus {
+  color: #272e87;
+}
+
 /* STORY SECTION - MEDIA QUERIES */
 
 @media (max-width: 850px) {
+
   /* drop bio btn sizes when they start to touch */
   .bioBtn>h2 {
     font-size: 1.125rem;
@@ -73,6 +84,7 @@
     width: 100%;
     border-radius: 0;
   }
+
   /* stack image on top / no wrap */
   .portraitImg {
     float: none;
