@@ -4,6 +4,7 @@ import styles from './story-section.module.css';
 
 const StorySection = () => {
 	const [ displayLongBio, setDisplayLongBio ] = useState(false);
+	// consider refactoring these styles
 	const shortBioBtnHighlight = !displayLongBio && styles.bioBtnHighlight;
 	const longBioBtnHighlight = displayLongBio && styles.bioBtnHighlight;
 

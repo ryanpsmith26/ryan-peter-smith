@@ -2,9 +2,6 @@
 
 ul {
   display: flex;
-  /* justify-content: space-around;
-  align-items: flex-end;
-  width: 100% */
 }
 
 li {
@@ -27,4 +24,23 @@ li {
 
 .menuBtn:focus {
   outline: none;
+}
+
+.menuIcon {
+  font-size: 2rem;
+  margin: 0 0.45em 0.45em 0;
+}
+
+/* NAV MENU - MEDIA QUERIES */
+
+@media (max-width: 600px) {
+  .hideFullMenu {
+    display: none
+  }
+}
+
+@media (min-width: 600px) {
+  .hideMenuIcon {
+    display: none
+  }
 }
