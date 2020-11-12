@@ -27,6 +27,7 @@ module.exports = {
 				icon: `src/images/logo/lightgray.png`
 			}
 		},
-		`gatsby-plugin-fontawesome-css`
+		`gatsby-plugin-fontawesome-css`,
+		`gatsby-plugin-smoothscroll`
 	]
 };
