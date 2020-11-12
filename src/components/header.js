@@ -4,10 +4,8 @@ import useScrollPosition from '@react-hook/window-scroll';
 
 import NavMenu from './nav-menu';
 import styles from './header.module.css';
-import smoothscroll from 'smoothscroll-polyfill';
 
 const Header = ({ siteTitle }) => {
-	smoothscroll.polyfill();
 	const scrollTop = () => {
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	};
