@@ -31,7 +31,6 @@
 .bioBtn {
   background: none;
   border: none;
-  font-size: 1.875rem;
   color: inherit;
   border: none;
   border-radius: 50px;
@@ -59,10 +58,10 @@
 
 /* STORY SECTION - MEDIA QUERIES */
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   /* drop bio btn sizes when they start to touch */
-  .bioBtn {
-    font-size: 0.5rem;
+  .bioBtn>h2 {
+    font-size: 1.125rem;
   }
 }
 

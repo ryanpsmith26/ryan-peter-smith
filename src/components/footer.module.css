@@ -40,7 +40,8 @@ footer {
   background: none;
   border: none;
   border-radius: 50px;
-  padding: 0 10px;
+  width: 50px;
+  height: 50px;
   color: #d9d9d9;
 }
 
