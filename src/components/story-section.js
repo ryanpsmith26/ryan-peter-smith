@@ -10,8 +10,9 @@ const StorySection = () => {
 
 	return (
 		<div className={styles.card} id="story">
+			{/* <div className={styles.portraitImgDiv}> */}
 			<img src={require('../images/portrait.jpeg')} alt="portrait" className={styles.portraitImg} />
-
+			{/* </div> */}
 			<div className={styles.story}>
 				<div className={styles.bioBtnDiv}>
 					<button

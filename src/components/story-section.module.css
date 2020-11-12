@@ -56,3 +56,28 @@
 .bioBtn>h2 {
   margin: 0
 }
+
+/* STORY SECTION - MEDIA QUERIES */
+
+@media (max-width: 750px) {
+  /* drop bio btn sizes when they start to touch */
+  .bioBtn {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 660px) {
+
+  /* remove card effect at smaller screens */
+  .card {
+    margin: 0 0 2em;
+    width: 100%;
+    border-radius: 0;
+  }
+  /* stack image on top / no wrap */
+  .portraitImg {
+    float: none;
+    display: block;
+    margin: 0 auto 2em;
+  }
+}
