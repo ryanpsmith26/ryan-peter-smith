@@ -33,7 +33,7 @@ const NavMenu = () => {
 				</ul>
 			</div>
 			<div className={styles.hideMenuIcon}>
-				<FontAwesomeIcon icon={faBars} className={styles.menuIcon} />
+				<FontAwesomeIcon icon={faBars} className={styles.menuIcon} size="2x" />
 			</div>
 		</React.Fragment>
 	);
