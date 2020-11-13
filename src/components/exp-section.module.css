@@ -5,6 +5,14 @@
 .timelineSectionDiv {
   max-width: 1000px;
   margin: 0 auto;
+  width: 95%
+}
+
+.sectionHeader {
+  padding: 50px 0;
+  color: #bfbfbf;
+  text-align: center;
+  font-family: 'Saira';
 }
 
 .timelineSectionDiv h3,

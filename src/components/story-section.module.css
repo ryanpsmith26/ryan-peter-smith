@@ -2,7 +2,7 @@
 
 .card {
   min-height: 380px;
-  margin: 4em auto;
+  margin: 4em auto 0;
   background-color: #d9d9d9;
   width: 90%;
   max-width: 1000px;
@@ -10,6 +10,13 @@
   border-radius: 20px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.025), 0 5px 2px rgba(0, 0, 0, 0.025), 0 15px 15px rgba(0, 0, 0, 0.035),
     0 30px 30px rgba(0, 0, 0, 0.045), 0 45px 45px rgba(0, 0, 0, 0.055);
+}
+
+.sectionHeader {
+  padding-top: 50px;
+  color: #bfbfbf;
+  text-align: center;
+  font-family: 'Saira';
 }
 
 .portraitImg {

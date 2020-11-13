@@ -8,6 +8,7 @@ import styles from './exp-section.module.css';
 const ExperienceSection = () => {
 	return (
 		<div className={styles.timelineSectionDiv} id="experience">
+			<h1 className={styles.sectionHeader}>-- Experience --</h1>
 			<VerticalTimeline>
 				{/* FULLSTACK -------------------------------------------------------------- */}
 				<VerticalTimelineElement
