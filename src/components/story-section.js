@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import scrollTo from 'gatsby-plugin-smoothscroll';
+import { faClose } from '@fortawesome/free-solid-svg-icons';
 
 import styles from './story-section.module.css';
 
@@ -100,6 +102,14 @@ const StorySection = () => {
 					and technologies. My goal is to be <strong>the best engineer I can possibly be</strong>, working on
 					tools and products that I believe in!
 				</p>
+				{/* CLOSE LONG BIO BTN */}
+				{displayLongBio && (
+					// <div className={styles.closeLongBio}>
+					<button onClick={() => setDisplayLongBio(false)} className={styles.closeLongBio}>
+						&times;
+					</button>
+					// </div>
+				)}
 			</div>
 		</div>
 	);

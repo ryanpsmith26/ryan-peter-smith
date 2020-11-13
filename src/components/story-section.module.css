@@ -66,6 +66,21 @@
   color: #272e87;
 }
 
+.closeLongBio {
+  display: block;
+  margin: 0 auto;
+  font-size: 3rem;
+  color: #404040;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.closeLongBio:hover,
+.closeLongBio:focus {
+  background-color: #bfbfbf;
+}
+
 /* STORY SECTION - MEDIA QUERIES */
 
 @media (max-width: 850px) {
