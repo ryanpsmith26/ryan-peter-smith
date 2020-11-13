@@ -14,8 +14,6 @@ import Footer from './footer';
 import './layout.css';
 
 const Layout = ({ children }) => {
-	// smooth scroll for unsupported browsers
-
 	return (
 		<React.Fragment>
 			<Header />

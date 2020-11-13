@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import scrollTo from 'gatsby-plugin-smoothscroll';
-import { faClose } from '@fortawesome/free-solid-svg-icons';
 
 import styles from './story-section.module.css';
 
@@ -14,6 +12,7 @@ const StorySection = () => {
 		<div className={styles.card} id="story">
 			<img src={require('../images/portrait.jpeg')} alt="portrait" className={styles.portraitImg} />
 			<div className={styles.story}>
+				{/* SWITCHING BTNS */}
 				<div className={styles.bioBtnDiv}>
 					<button
 						type="button"
@@ -52,6 +51,7 @@ const StorySection = () => {
 								href="https://drive.google.com/file/d/11gUI3s0iBRkWkc5GZKaUOcLbCCHtwNtc/view?usp=sharing"
 								target="_blank"
 								className={styles.refLetterLink}
+								rel="external"
 							>
 								Plant Engineer of a seafood processing facility in Brooklyn
 							</a>{' '}
@@ -104,11 +104,10 @@ const StorySection = () => {
 				</p>
 				{/* CLOSE LONG BIO BTN */}
 				{displayLongBio && (
-					// <div className={styles.closeLongBio}>
+					// consider refactoring to an icon
 					<button onClick={() => setDisplayLongBio(false)} className={styles.closeLongBio}>
 						&times;
 					</button>
-					// </div>
 				)}
 			</div>
 		</div>

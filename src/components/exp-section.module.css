@@ -1,0 +1,39 @@
+/* EXPERIENCE SECTION */
+
+/* styles passed to timeline component props are located in Component file */
+
+.timelineSectionDiv {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.timelineSectionDiv h3,
+.timelineSectionDiv h4,
+.timelineSectionDiv p {
+  color: #404040;
+}
+
+.timelineCardDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconImg {
+  border-radius: 50px;
+  background-color: #fff;
+}
+
+.iconImgSBU {
+  border-radius: 50px 50px 10px 10px;
+}
+
+/* MEDIA QUERIES */
+
+/* hacky solution to get date text color to flip to light gray when the timeline breaks open at large screens and date jumps onto the dark gray background  */
+@media (min-width: 1170px) {
+  .timelineSectionDiv {
+    color: #d9d9d9;
+  }
+}
+
+@media (max-width: 1170px) {}

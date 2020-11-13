@@ -21,13 +21,13 @@ const Footer = () => {
 				<a href="mailto: ryanpsmith01@gmail.com">
 					<FontAwesomeIcon icon={faEnvelope} />
 				</a>
-				<a href="https://www.linkedin.com/in/ryan-peter-smith/" target="_blank">
+				<a href="https://www.linkedin.com/in/ryan-peter-smith/" target="_blank" rel="external">
 					<FontAwesomeIcon icon={faLinkedin} />
 				</a>
-				<a href="https://github.com/ryanpsmith26" target="_blank">
+				<a href="https://github.com/ryanpsmith26" target="_blank" rel="external">
 					<FontAwesomeIcon icon={faGithub} />
 				</a>
-				<a href="https://twitter.com/ryanpsmith26" target="_blank">
+				<a href="https://twitter.com/ryanpsmith26" target="_blank" rel="external">
 					<FontAwesomeIcon icon={faTwitter} />
 				</a>
 			</div>

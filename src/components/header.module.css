@@ -6,7 +6,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* padding: 2em; */
+  z-index: 100;
   background-color: #d9d9d9;
   transition: top 800ms;
   opacity: 0.95;
