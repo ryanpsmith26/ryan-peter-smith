@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 import styles from './story-section.module.css';
 
@@ -43,7 +44,7 @@ const StorySection = () => {
 							Engineering program at Stony Brook University.
 						</p>
 						<p>
-							I went on to obtain that Bachelor’s of Engineering degree in Mechanical Engineering. From
+							I went on to obtain that Bachelor of Engineering degree in Mechanical Engineering. From
 							there, I worked in various mechanical roles for about five years. I first worked as a
 							Mechanical Inspector, at a consulting firm, for a little under two years. I then went on to
 							work as the lead{' '}
@@ -105,7 +106,15 @@ const StorySection = () => {
 				{/* CLOSE LONG BIO BTN */}
 				{displayLongBio && (
 					// consider refactoring to an icon
-					<button onClick={() => setDisplayLongBio(false)} className={styles.closeLongBio}>
+					<button
+						onClick={() => {
+							scrollTo('#story');
+							setTimeout(() => {
+								setDisplayLongBio(false);
+							}, 400);
+						}}
+						className={styles.closeLongBio}
+					>
 						&times;
 					</button>
 				)}

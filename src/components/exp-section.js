@@ -1,15 +1,13 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap, faBriefcase, faStar } from '@fortawesome/free-solid-svg-icons';
 
 // also see _styles below for timeline props
 import styles from './exp-section.module.css';
 
 const ExperienceSection = () => {
 	return (
-		<div className={styles.timelineSectionDiv}>
+		<div className={styles.timelineSectionDiv} id="experience">
 			<VerticalTimeline>
 				{/* FULLSTACK -------------------------------------------------------------- */}
 				<VerticalTimelineElement
@@ -21,7 +19,9 @@ const ExperienceSection = () => {
 				>
 					<h3 className="vertical-timeline-element-title">Fullstack Academy of Code</h3>
 					<h4 className="vertical-timeline-element-subtitle">New York, NY</h4>
-					<p>Software Engineering Immersive</p>
+					<p>
+						Certificate in Full Stack Web Development, <strong>Software Engineering</strong>
+					</p>
 				</VerticalTimelineElement>
 				{/* ACME SMOKED FISH ----------------------------------------------------- */}
 				<VerticalTimelineElement
@@ -35,7 +35,7 @@ const ExperienceSection = () => {
 						<div>
 							<h3 className="vertical-timeline-element-title">Acme Smoked Fish Corp.</h3>
 							<h4 className="vertical-timeline-element-subtitle">Brooklyn, NY</h4>
-							<p>Plant Engineer</p>
+							<p>Plant Engineer | Maintenance Manager</p>
 						</div>
 					</div>
 				</VerticalTimelineElement>
@@ -62,7 +62,9 @@ const ExperienceSection = () => {
 				>
 					<h3 className="vertical-timeline-element-title">Stony Brook University</h3>
 					<h4 className="vertical-timeline-element-subtitle">Stony Brook, NY</h4>
-					<p>Bachelor's of Engineering Degree in Mechanical Engineering</p>
+					<p>
+						Bachelor of Engineering Degree in <strong>Mechanical Engineering</strong>
+					</p>
 				</VerticalTimelineElement>
 				{/* RPS ICON ------------------------------------------- */}
 				<VerticalTimelineElement
