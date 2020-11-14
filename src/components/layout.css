@@ -66,13 +66,15 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  color: inherit;
+  color: #3a43c2;
   text-decoration: none;
 }
 
 a:active,
 a:hover {
   outline-width: 0;
+  color: #272e87;
+  cursor: pointer
 }
 
 abbr[title] {

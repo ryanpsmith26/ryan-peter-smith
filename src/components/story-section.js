@@ -53,7 +53,6 @@ const StorySection = () => {
 								<a
 									href="https://drive.google.com/file/d/11gUI3s0iBRkWkc5GZKaUOcLbCCHtwNtc/view?usp=sharing"
 									target="_blank"
-									className={styles.refLetterLink}
 									rel="external"
 								>
 									Plant Engineer of a seafood processing facility in Brooklyn

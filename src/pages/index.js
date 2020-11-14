@@ -5,6 +5,7 @@ import SEO from '../components/seo';
 import HeroSection from '../components/hero-section';
 import StorySection from '../components/story-section';
 import ExperienceSection from '../components/exp-section';
+import ProjectSection from '../components/project-section';
 
 const IndexPage = () => (
 	<Layout>
@@ -12,6 +13,7 @@ const IndexPage = () => (
 		<HeroSection />
 		<StorySection />
 		<ExperienceSection />
+		<ProjectSection />
 	</Layout>
 );
 

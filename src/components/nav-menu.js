@@ -12,29 +12,17 @@ const NavMenu = () => {
 				<ul>
 					<li>
 						<div className={styles.menuBtn}>
-							<button
-								onClick={() => {
-									scrollTo('#story');
-									// setTimeout(() => {
-									// 	window.scrollBy({
-									// 		top: -150,
-									// 		behavior: 'smooth'
-									// 	});
-									// }, 500);
-								}}
-							>
-								My Story
-							</button>
-						</div>
-					</li>
-					<li>
-						<div className={styles.menuBtn}>
-							<button onClick={() => scrollTo('#projects')}>Projects</button>
+							<button onClick={() => scrollTo('#story')}>My Story</button>
 						</div>
 					</li>
 					<li>
 						<div className={styles.menuBtn}>
 							<button onClick={() => scrollTo('#experience')}>Experience</button>
+						</div>
+					</li>
+					<li>
+						<div className={styles.menuBtn}>
+							<button onClick={() => scrollTo('#projects')}>Projects</button>
 						</div>
 					</li>
 					<li>

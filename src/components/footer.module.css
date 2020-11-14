@@ -19,13 +19,16 @@ footer {
   font-size: 3rem;
 }
 
+/* contact icons / links */
 .footerDiv>* {
   margin: 0 0.5em;
+  color: #404040;
 }
 
 .footerDiv>*:hover,
 .footerDiv>*:focus {
   opacity: 0.7;
+  color: inherit
 }
 
 .footerDiv>*:focus {
