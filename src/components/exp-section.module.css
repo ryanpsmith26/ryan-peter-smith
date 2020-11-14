@@ -36,7 +36,7 @@
   border-radius: 50px 50px 10px 10px;
 }
 
-/* MEDIA QUERIES */
+/* EXPERIENCE SECTION -- MEDIA QUERIES */
 
 /* hacky solution to get date text color to flip to light gray when the timeline breaks open at large screens and date jumps onto the dark gray background  */
 @media (min-width: 1170px) {
@@ -45,4 +45,12 @@
   }
 }
 
-@media (max-width: 1170px) {}
+@media (max-width: 660px) {
+  .timelineSectionDiv h3 {
+    font-size: 0.875rem;
+  }
+
+  .timelineSectionDiv h4 {
+    font-size: 0.75rem;
+  }
+}
