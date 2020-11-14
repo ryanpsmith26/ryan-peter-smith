@@ -10,6 +10,7 @@
   right: 0;
   background-color: #d9d9d9;
   border: 1px solid #bfbfbf;
+  padding-top: 1em;
 
   &-enter {
     opacity: 0;
