@@ -104,6 +104,7 @@
   /* remove card effect at smaller screens */
   .card {
     margin: 0 0 2em;
+    padding: 1em;
     width: 100%;
     border-radius: 0;
   }

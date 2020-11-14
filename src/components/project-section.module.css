@@ -40,3 +40,20 @@ code {
   width: 100%;
   height: 100%
 }
+
+/* PROJECTS SECTION - MEDIA QUERIES */
+
+@media (max-width: 660px) {
+
+  /* remove card effect at smaller screens */
+  .card {
+    margin: 0 0 2em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .singleProject>h2 {
+    font-size: 1.25rem;
+  }
+}
