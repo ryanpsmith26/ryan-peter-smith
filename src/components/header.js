@@ -5,7 +5,7 @@ import useScrollPosition from '@react-hook/window-scroll';
 import NavMenu from './nav-menu';
 import styles from './header.module.css';
 
-const Header = ({ siteTitle }) => {
+const Header = () => {
 	const scrollTop = () => {
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	};

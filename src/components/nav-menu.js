@@ -1,8 +1,7 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
+import NavDropdown from './nav-dropdown';
 import styles from './nav-menu.module.css';
 
 const NavMenu = () => {
@@ -33,7 +32,7 @@ const NavMenu = () => {
 				</ul>
 			</div>
 			<div className={styles.hideMenuIcon}>
-				<FontAwesomeIcon icon={faBars} className={styles.menuIcon} size="2x" />
+				<NavDropdown className={styles.menuIcon} />
 			</div>
 		</React.Fragment>
 	);

@@ -21,7 +21,7 @@
 
 /* single project divs excluding bottom */
 .card>*:not(:last-child) {
-  border-bottom: 0.5px solid #bfbfbf;
+  border-bottom: 2px solid #bfbfbf;
   padding-bottom: 1em;
   margin-bottom: 1em;
 }

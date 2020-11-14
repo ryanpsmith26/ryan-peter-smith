@@ -1,0 +1,75 @@
+/* NAV DROPDOWN */
+
+.menuIcon {
+  margin: 0 0.35em 0.35em 0;
+}
+
+.dropdownMenu {
+  display: flex;
+  flex-direction: column;
+  top: 28px;
+  right: 0;
+  padding: 1em;
+  background-color: #d9d9d9;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px #c3c5c7;
+
+  &-enter {
+    opacity: 0;
+  }
+
+  &-enter-active {
+    opacity: 1;
+    transition: 0.2s ease-in;
+  }
+
+  &-exit {
+    opacity: 1;
+  }
+
+  &-exit-active {
+    opacity: 0;
+    transition: 0.2s ease-in;
+  }
+}
+
+.dropdownMenuItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 26px;
+  font-size: 12px;
+  color: #333537;
+
+  &:hover {
+    background-color: #f3f5f7;
+  }
+
+  &__spacer {
+    width: 6px;
+  }
+
+  &__text {
+    padding: 0px 2px;
+  }
+}
+
+
+.menuBtn {
+  font-family: 'Saira';
+  font-weight: bold;
+  background-color: #d9d9d9;
+  padding: 0.55em 1.5em;
+  border-radius: 30px;
+  /* margin: 0 1em; */
+}
+
+.menuBtn:focus {
+  /* outline: none; */
+}
+
+.menuBtn:hover,
+.menuBtn:focus {
+  background-color: #bfbfbf;
+}
