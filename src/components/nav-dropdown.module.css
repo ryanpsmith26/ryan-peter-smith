@@ -7,12 +7,9 @@
 .dropdownMenu {
   display: flex;
   flex-direction: column;
-  top: 28px;
   right: 0;
-  padding: 1em;
   background-color: #d9d9d9;
-  border-radius: 3px;
-  box-shadow: 0px 0px 5px #c3c5c7;
+  border: 1px solid #bfbfbf;
 
   &-enter {
     opacity: 0;
@@ -38,8 +35,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 6px 26px;
-  font-size: 12px;
+  margin: 0 1em;
+  font-size: 1rem;
   color: #333537;
 
   &:hover {
@@ -55,18 +52,12 @@
   }
 }
 
-
 .menuBtn {
   font-family: 'Saira';
   font-weight: bold;
   background-color: #d9d9d9;
   padding: 0.55em 1.5em;
   border-radius: 30px;
-  /* margin: 0 1em; */
-}
-
-.menuBtn:focus {
-  /* outline: none; */
 }
 
 .menuBtn:hover,
