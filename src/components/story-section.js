@@ -96,7 +96,7 @@ const StorySection = () => {
 					)}
 					{/* END LONG BIO */}
 					<p>
-						I’m immensely excited as I begin my journey as a professional Software Engineer. I’m a Full
+						I’m incredibly excited as I begin my journey as a professional Software Engineer. I’m a Full
 						Stack Engineer with a passion for the front end. I appreciate elegant visual design, as much as
 						I do clean code. My attention to detail is innate, and bleeds into everything I do. I'm
 						constantly striving to better myself as an engineer and developer. Some tech that I'm highly
