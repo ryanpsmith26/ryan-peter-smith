@@ -1,7 +1,7 @@
 import React from 'react';
 import NavbarDropdown from 'react-navbar-dropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
 import styles from './nav-dropdown.module.css';
@@ -14,7 +14,7 @@ const NavDropdown = () => {
 					<FontAwesomeIcon icon={faBars} className={styles.menuIcon} fixedWidth size="2x" />
 				</NavbarDropdown.Open>
 				<NavbarDropdown.Close>
-					<FontAwesomeIcon icon={faBars} className={styles.menuIcon} fixedWidth size="2x" />
+					<FontAwesomeIcon icon={faTimes} className={styles.menuIcon} fixedWidth size="2x" />
 				</NavbarDropdown.Close>
 			</NavbarDropdown.Toggle>
 			<NavbarDropdown.CSSTransitionMenu className={styles.dropdownMenu} timeout={200}>

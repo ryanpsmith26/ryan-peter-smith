@@ -4,6 +4,11 @@
   margin: 0 0.35em 0.35em 0;
 }
 
+.menuIcon:hover,
+.menuIcon:focus {
+  opacity: 0.75;
+}
+
 .dropdownMenu {
   display: flex;
   flex-direction: column;
@@ -11,24 +16,6 @@
   background-color: #d9d9d9;
   border: 1px solid #bfbfbf;
   padding-top: 1em;
-
-  &-enter {
-    opacity: 0;
-  }
-
-  &-enter-active {
-    opacity: 1;
-    transition: 0.2s ease-in;
-  }
-
-  &-exit {
-    opacity: 1;
-  }
-
-  &-exit-active {
-    opacity: 0;
-    transition: 0.2s ease-in;
-  }
 }
 
 .dropdownMenuItem {
@@ -39,18 +26,6 @@
   margin: 0 1em;
   font-size: 1rem;
   color: #333537;
-
-  &:hover {
-    background-color: #f3f5f7;
-  }
-
-  &__spacer {
-    width: 6px;
-  }
-
-  &__text {
-    padding: 0px 2px;
-  }
 }
 
 .menuBtn {
