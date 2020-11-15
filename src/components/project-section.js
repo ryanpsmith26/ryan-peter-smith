@@ -36,13 +36,14 @@ const ProjectSection = () => {
 						what our backend would look like, and where it would live. We explored tools like Firebase, but
 						quickly realized that a non-relational DBMS would be unwise given the nature of our data. We
 						decided we wanted full control and so we wrote our own backend with <strong>Express</strong> and{' '}
-						<strong>PostgreSQL RDBMS</strong>, in a separate repo and hosted it on <strong>Heroku.</strong>
+						<strong>PostgreSQL</strong>, in a separate repo and hosted it on <strong>Heroku.</strong>
 					</p>
 					<p>
 						Beyond just getting the project off the ground, all while teaching ourselves mobile development,
-						some additional challenges we faced were how to grab images from a user's device and where to
-						host them. We landed on using <strong>Cloudinary</strong> to host the image files. This way we
-						could simply store the uri provided by Cloudinary, in our own backend.
+						some additional challenges we faced were how to grab images from a user's device, as well as
+						where to host them. We landed on using <strong>Cloudinary</strong> to host the image files. This
+						way we could simply store the uri provided by Cloudinary, in our own backend, and fetch them as
+						needed.
 					</p>
 					<p>
 						Check out the{' '}
@@ -79,7 +80,7 @@ const ProjectSection = () => {
 						I built this website from scratch when I was just getting my start in web development. I had
 						little experience, but was working through an online course in responsive web design which
 						taught me mobile-first responsive design with <strong>HTML, CSS Flexbox</strong> and{' '}
-						<strong>CSS Grid</strong>. I originally built the site utilizing just flexbox. After completing
+						<strong>CSS Grid</strong>. I originally built the site utilizing only flexbox. After completing
 						the online course, I refactored the site to include grid, to get more practice. This project
 						also helped me get my start with VSC using <strong>Git</strong> and <strong>GitHub</strong>, as
 						well as deployment with <strong>Netlify</strong>.
@@ -131,7 +132,7 @@ const ProjectSection = () => {
 						</a>
 					</h2>
 					<p>
-						Grace Shopper is another web app built as a part of the Fullstack Academy curriculum. The was a
+						Grace Shopper is another web app built as part of the Fullstack Academy curriculum. This was a
 						group project where we were assigned to build a mock e-commerce site in the FSA tech stack. In
 						this project, we further solidified our knowledge in{' '}
 						<strong>React, Redux, Express, Sequelize</strong> and <strong>PostgreSQL.</strong> This was my

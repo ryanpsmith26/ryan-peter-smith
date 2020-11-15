@@ -64,7 +64,7 @@ const ExperienceSection = () => {
 					<h3 className="vertical-timeline-element-title">Stony Brook University</h3>
 					<h4 className="vertical-timeline-element-subtitle">Stony Brook, NY</h4>
 					<p>
-						Bachelor of Engineering Degree in <strong>Mechanical Engineering</strong>
+						Bachelor of Engineering Degree, <strong>Mechanical Engineering</strong>
 					</p>
 				</VerticalTimelineElement>
 				{/* RPS ICON ------------------------------------------- */}

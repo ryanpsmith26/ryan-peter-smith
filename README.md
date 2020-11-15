@@ -4,6 +4,6 @@
 
 https://ryanpsmith.dev
 
-Portfolio Website built with Gatsby.js and React.
+Portfolio Website built with React and Gatsby. Responsive design implemented with CSS Flexbox.
 
-🚧 Under Heavy Construction 🚧
+🚧 Site is under active development 🚧
