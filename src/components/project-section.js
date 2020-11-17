@@ -12,7 +12,7 @@ const ProjectSection = () => {
 				<div className={styles.singleProject}>
 					{/* <img /> */}
 					<h2>
-						<a href="https://expo.io/@cooked-capstone/projects/cooked" target="_blank" rel="external">
+						<a href="https://expo.io/@cooked-capstone/projects/cooked" target="_blank" rel="noreferrer">
 							Cook'd Recipe Sharing App
 						</a>
 					</h2>
@@ -47,7 +47,7 @@ const ProjectSection = () => {
 					</p>
 					<p>
 						Check out the{' '}
-						<a href="https://github.com/Do-Jest-While-True" target="_blank" rel="external">
+						<a href="https://github.com/Do-Jest-While-True" target="_blank" rel="noreferrer">
 							GitHub org
 						</a>{' '}
 						to view the source code.
@@ -67,7 +67,7 @@ const ProjectSection = () => {
 				{/* PRECISION MARBLE --------------------------------- */}
 				<div className={styles.singleProject}>
 					<h2>
-						<a href="https://precision-marble.com/" target="_blank" rel="external">
+						<a href="https://precision-marble.com/" target="_blank" rel="noreferrer">
 							Precision Marble & Granite
 						</a>
 					</h2>
@@ -92,7 +92,7 @@ const ProjectSection = () => {
 					</p>
 					<p>
 						Check out the{' '}
-						<a href="https://github.com/ryanpsmith26/precision-marble" target="_blank" rel="external">
+						<a href="https://github.com/ryanpsmith26/precision-marble" target="_blank" rel="noreferrer">
 							GitHub repo
 						</a>{' '}
 						to view the source code.
@@ -101,7 +101,7 @@ const ProjectSection = () => {
 				{/* ROBOTICS INC ------------------------------------- */}
 				<div className={styles.singleProject}>
 					<h2>
-						<a href="https://robotics-inc.herokuapp.com/" target="_blank" rel="external">
+						<a href="https://robotics-inc.herokuapp.com/" target="_blank" rel="noreferrer">
 							Robotics Inc.
 						</a>
 					</h2>
@@ -118,7 +118,7 @@ const ProjectSection = () => {
 					</p>
 					<p>
 						Check out the{' '}
-						<a href="https://github.com/ryanpsmith26/Robotics-Inc" target="_blank" rel="external">
+						<a href="https://github.com/ryanpsmith26/Robotics-Inc" target="_blank" rel="noreferrer">
 							GitHub repo
 						</a>{' '}
 						to view the source code.
@@ -127,7 +127,7 @@ const ProjectSection = () => {
 				{/* GRACE SHOPPER ----------------------------------- */}
 				<div className={styles.singleProject}>
 					<h2>
-						<a href="https://cereal-grace-shopper.herokuapp.com/" target="_blank" rel="external">
+						<a href="https://cereal-grace-shopper.herokuapp.com/" target="_blank" rel="noreferrer">
 							Grace Shopper
 						</a>
 					</h2>
@@ -154,7 +154,7 @@ const ProjectSection = () => {
 						<a
 							href="https://github.com/Rice-Krispy-Grace-Shopper/Grace-Shopper"
 							target="_blank"
-							rel="external"
+							rel="noreferrer"
 						>
 							GitHub repo
 						</a>{' '}

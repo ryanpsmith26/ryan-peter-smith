@@ -16,7 +16,7 @@ const ExperienceSection = () => {
 					contentStyle={styles_.card}
 					contentArrowStyle={styles_.cardArrow}
 					date="August 2020 - October 2020"
-					icon={<img src={require('../images/fsa-icon.png')} className={styles.iconImg} />}
+					icon={<img src={require('../images/fsa-icon.png')} className={styles.iconImg} alt="" />}
 				>
 					<h3 className="vertical-timeline-element-title">Fullstack Academy of Code</h3>
 					<h4 className="vertical-timeline-element-subtitle">New York, NY</h4>
@@ -30,7 +30,7 @@ const ExperienceSection = () => {
 					contentStyle={styles_.card}
 					contentArrowStyle={styles_.cardArrow}
 					date="August 2017 - July 2020"
-					icon={<img src={require('../images/acme-a.jpg')} className={styles.iconImg} />}
+					icon={<img src={require('../images/acme-a.jpg')} className={styles.iconImg} alt="" />}
 				>
 					<div className={styles.cardDiv}>
 						<div>
@@ -46,7 +46,7 @@ const ExperienceSection = () => {
 					contentStyle={styles_.card}
 					contentArrowStyle={styles_.cardArrow}
 					date="November 2015 - July 2017"
-					icon={<img src={require('../images/emtec-new.jpeg')} className={styles.iconImg} />}
+					icon={<img src={require('../images/emtec-new.jpeg')} className={styles.iconImg} alt="" />}
 				>
 					<h3 className="vertical-timeline-element-title">Emtec Consulting Engineers</h3>
 					<h4 className="vertical-timeline-element-subtitle">Ronkonkoma, NY</h4>
@@ -58,7 +58,7 @@ const ExperienceSection = () => {
 					contentStyle={styles_.card}
 					contentArrowStyle={styles_.cardArrow}
 					date="2011-2015"
-					icon={<img src={require('../images/sbu-sq-white.jpg')} className={styles.iconImgSBU} />}
+					icon={<img src={require('../images/sbu-sq-white.jpg')} className={styles.iconImgSBU} alt="" />}
 					iconStyle={styles_.icon}
 				>
 					<h3 className="vertical-timeline-element-title">Stony Brook University</h3>
@@ -69,7 +69,7 @@ const ExperienceSection = () => {
 				</VerticalTimelineElement>
 				{/* RPS ICON ------------------------------------------- */}
 				<VerticalTimelineElement
-					icon={<img src={require('../images/coaster.jpg')} className={styles.iconImg} />}
+					icon={<img src={require('../images/coaster.jpg')} className={styles.iconImg} alt="" />}
 					iconStyle={styles_.icon}
 				/>
 			</VerticalTimeline>

@@ -6,6 +6,7 @@ import HeroSection from '../components/hero-section';
 import StorySection from '../components/story-section';
 import ExperienceSection from '../components/exp-section';
 import ProjectSection from '../components/project-section';
+// import Contact from '../components/contact';
 
 const IndexPage = () => (
 	<Layout>
@@ -14,6 +15,7 @@ const IndexPage = () => (
 		<StorySection />
 		<ExperienceSection />
 		<ProjectSection />
+		{/* <Contact /> */}
 	</Layout>
 );
 
