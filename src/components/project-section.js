@@ -244,23 +244,33 @@ const ProjectSection = () => {
 							className={styles.openCloseLargeScreen}
 						>
 							{expandGraceShopper ? (
-								<FontAwesomeIcon icon={faAngleUp} className={styles.openCloseIcon} />
+								<div className={styles.openCloseIcon}>
+									<FontAwesomeIcon icon={faAngleUp} />
+								</div>
 							) : (
-								<FontAwesomeIcon icon={faAngleDown} className={styles.openCloseIcon} />
+								<div className={styles.openCloseIcon}>
+									<FontAwesomeIcon icon={faAngleDown} />
+								</div>
 							)}
 						</button>
 					</div>
 					<div className={styles.projectIconsDiv}>
 						<div>
-							<a href="https://cereal-grace-shopper.herokuapp.com/" target="_blank" rel="noreferrer">
-								<FontAwesomeIcon icon={faLink} className={styles.projectIcons} />
+							<a
+								href="https://cereal-grace-shopper.herokuapp.com/"
+								target="_blank"
+								rel="noreferrer"
+								className={styles.projectIcons}
+							>
+								<FontAwesomeIcon icon={faLink} />
 							</a>
 							<a
 								href="https://github.com/Rice-Krispy-Grace-Shopper/Grace-Shopper"
 								target="_blank"
 								rel="noreferrer"
+								className={styles.projectIcons}
 							>
-								<FontAwesomeIcon icon={faGithub} className={styles.projectIcons} />
+								<FontAwesomeIcon icon={faGithub} />
 							</a>
 						</div>
 						{/* expand button inline with icons at small screens */}
@@ -269,9 +279,13 @@ const ProjectSection = () => {
 							className={styles.openCloseSmallScreen}
 						>
 							{expandGraceShopper ? (
-								<FontAwesomeIcon icon={faAngleUp} className={styles.openCloseIcon} />
+								<div className={styles.openCloseIcon}>
+									<FontAwesomeIcon icon={faAngleUp} />
+								</div>
 							) : (
-								<FontAwesomeIcon icon={faAngleDown} className={styles.openCloseIcon} />
+								<div className={styles.openCloseIcon}>
+									<FontAwesomeIcon icon={faAngleDown} />
+								</div>
 							)}
 						</button>
 					</div>
