@@ -1,5 +1,13 @@
 /* PROJECT SECTION */
 
+.sectionHeader {
+  padding: 50px 0;
+  margin: 0;
+  color: #bfbfbf;
+  text-align: center;
+  font-family: 'Saira';
+}
+
 .card {
   margin: 0 auto;
   background-color: #d9d9d9;
@@ -11,14 +19,6 @@
     0 30px 30px rgba(0, 0, 0, 0.045), 0 45px 45px rgba(0, 0, 0, 0.055);
 }
 
-.sectionHeader {
-  padding: 50px 0;
-  margin: 0;
-  color: #bfbfbf;
-  text-align: center;
-  font-family: 'Saira';
-}
-
 /* single project divs excluding bottom */
 .card>*:not(:last-child) {
   border-bottom: 2px solid #bfbfbf;
@@ -26,7 +26,64 @@
   margin-bottom: 1em;
 }
 
-.singleProject {}
+/* PROJECT HEADER AREA */
+
+.projectImg {
+  float: left;
+  width: 175px;
+  height: 175px;
+  margin: 0 1.33em 0.875em 0;
+  border: none;
+  border-radius: 10px;
+}
+
+.projectHeader {
+  display: flex;
+  justify-content: space-between;
+  /* figure out why this is even needed */
+  color: #404040;
+}
+
+.projectHeader>h2 {
+  margin: 0;
+}
+
+.projectIcons {
+  font-size: 2rem;
+  color: #404040;
+  margin: 0.55em 0.75em 0.65em 0;
+}
+
+.projectIcons:hover,
+.projectIcons:focus {
+  opacity: 0.7;
+}
+
+.projectIconsDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.openCloseIcon {
+  color: #404040;
+  font-size: 2.5rem;
+  margin-left: 0.5em;
+}
+
+.openCloseIcon:hover,
+.openCloseIcon:focus {
+  opacity: 0.7;
+}
+
+.openCloseLargeScreen {
+  display: inline-block
+}
+
+.openCloseSmallScreen {
+  display: none;
+}
+
+/* PROJECT CONTENT AREA */
 
 code {
   font-size: 1.1rem;
@@ -38,14 +95,14 @@ code {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%
+  height: 100%;
 }
 
 /* PROJECTS SECTION - MEDIA QUERIES */
 
 @media (max-width: 660px) {
 
-  /* remove card effect at smaller screens */
+  /* remove card effect / drop header size at smaller screens */
   .card {
     margin: 0 0 2em;
     padding: 1em;
@@ -55,5 +112,21 @@ code {
 
   .singleProject>h2 {
     font-size: 1.25rem;
+  }
+
+  /* remove project img at smaller screens */
+  .projectImg {
+    display: none;
+  }
+}
+
+@media (max-width: 370px) {
+  /* drop expand btn down in line with icons instead of title at even smaller screens */
+  .openCloseLargeScreen {
+    display: none
+  }
+
+  .openCloseSmallScreen {
+    display: inline-block
   }
 }
