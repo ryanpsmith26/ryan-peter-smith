@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import YouTube from 'react-youtube';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown, faAngleUp, faLink } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 import styles from './project-section.module.css';
 
@@ -56,6 +56,14 @@ const ProjectSection = () => {
 								className={styles.projectIcons}
 							>
 								<FontAwesomeIcon icon={faGithub} />
+							</a>
+							<a
+								href="https://www.youtube.com/watch?v=2qv1BzJ4XH4&feature=youtu.be"
+								target="_blank"
+								rel="noreferrer"
+								className={styles.projectIcons}
+							>
+								<FontAwesomeIcon icon={faYoutube} />
 							</a>
 						</div>
 						{/* expand button inline with icons at small screens */}
