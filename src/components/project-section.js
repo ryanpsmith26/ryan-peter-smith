@@ -29,27 +29,45 @@ const ProjectSection = () => {
 						{/* expand button inline with header at large screens */}
 						<button onClick={() => setExpandCooked(!expandCooked)} className={styles.openCloseLargeScreen}>
 							{expandCooked ? (
-								<FontAwesomeIcon icon={faAngleUp} className={styles.openCloseIcon} />
+								<div className={styles.openCloseIcon}>
+									<FontAwesomeIcon icon={faAngleUp} />
+								</div>
 							) : (
-								<FontAwesomeIcon icon={faAngleDown} className={styles.openCloseIcon} />
+								<div className={styles.openCloseIcon}>
+									<FontAwesomeIcon icon={faAngleDown} />
+								</div>
 							)}
 						</button>
 					</div>
 					<div className={styles.projectIconsDiv}>
 						<div>
-							<a href="https://expo.io/@cooked-capstone/projects/cooked" target="_blank" rel="noreferrer">
-								<FontAwesomeIcon icon={faLink} className={styles.projectIcons} />
+							<a
+								href="https://expo.io/@cooked-capstone/projects/cooked"
+								target="_blank"
+								rel="noreferrer"
+								className={styles.projectIcons}
+							>
+								<FontAwesomeIcon icon={faLink} />
 							</a>
-							<a href="https://github.com/Do-Jest-While-True" target="_blank" rel="noreferrer">
-								<FontAwesomeIcon icon={faGithub} className={styles.projectIcons} />
+							<a
+								href="https://github.com/Do-Jest-While-True"
+								target="_blank"
+								rel="noreferrer"
+								className={styles.projectIcons}
+							>
+								<FontAwesomeIcon icon={faGithub} />
 							</a>
 						</div>
 						{/* expand button inline with icons at small screens */}
 						<button onClick={() => setExpandCooked(!expandCooked)} className={styles.openCloseSmallScreen}>
 							{expandCooked ? (
-								<FontAwesomeIcon icon={faAngleUp} className={styles.openCloseIcon} />
+								<div className={styles.openCloseIcon}>
+									<FontAwesomeIcon icon={faAngleUp} />
+								</div>
 							) : (
-								<FontAwesomeIcon icon={faAngleDown} className={styles.openCloseIcon} />
+								<div className={styles.openCloseIcon}>
+									<FontAwesomeIcon icon={faAngleDown} />
+								</div>
 							)}
 						</button>
 					</div>
@@ -116,19 +134,33 @@ const ProjectSection = () => {
 							className={styles.openCloseLargeScreen}
 						>
 							{expandPrecision ? (
-								<FontAwesomeIcon icon={faAngleUp} className={styles.openCloseIcon} />
+								<div className={styles.openCloseIcon}>
+									<FontAwesomeIcon icon={faAngleUp} />
+								</div>
 							) : (
-								<FontAwesomeIcon icon={faAngleDown} className={styles.openCloseIcon} />
+								<div className={styles.openCloseIcon}>
+									<FontAwesomeIcon icon={faAngleDown} />
+								</div>
 							)}
 						</button>
 					</div>
 					<div className={styles.projectIconsDiv}>
 						<div>
-							<a href="https://precision-marble.com/" target="_blank" rel="noreferrer">
-								<FontAwesomeIcon icon={faLink} className={styles.projectIcons} />
+							<a
+								href="https://precision-marble.com/"
+								target="_blank"
+								rel="noreferrer"
+								className={styles.projectIcons}
+							>
+								<FontAwesomeIcon icon={faLink} />
 							</a>
-							<a href="https://github.com/ryanpsmith26/precision-marble" target="_blank" rel="noreferrer">
-								<FontAwesomeIcon icon={faGithub} className={styles.projectIcons} />
+							<a
+								href="https://github.com/ryanpsmith26/precision-marble"
+								target="_blank"
+								rel="noreferrer"
+								className={styles.projectIcons}
+							>
+								<FontAwesomeIcon icon={faGithub} />
 							</a>
 						</div>
 						{/* expand button inline with icons at small screens */}
@@ -137,9 +169,13 @@ const ProjectSection = () => {
 							className={styles.openCloseSmallScreen}
 						>
 							{expandPrecision ? (
-								<FontAwesomeIcon icon={faAngleUp} className={styles.openCloseIcon} />
+								<div className={styles.openCloseIcon}>
+									<FontAwesomeIcon icon={faAngleUp} />
+								</div>
 							) : (
-								<FontAwesomeIcon icon={faAngleDown} className={styles.openCloseIcon} />
+								<div className={styles.openCloseIcon}>
+									<FontAwesomeIcon icon={faAngleDown} />
+								</div>
 							)}
 						</button>
 					</div>
@@ -185,19 +221,33 @@ const ProjectSection = () => {
 							className={styles.openCloseLargeScreen}
 						>
 							{expandRobotics ? (
-								<FontAwesomeIcon icon={faAngleUp} className={styles.openCloseIcon} />
+								<div className={styles.openCloseIcon}>
+									<FontAwesomeIcon icon={faAngleUp} />
+								</div>
 							) : (
-								<FontAwesomeIcon icon={faAngleDown} className={styles.openCloseIcon} />
+								<div className={styles.openCloseIcon}>
+									<FontAwesomeIcon icon={faAngleDown} />
+								</div>
 							)}
 						</button>
 					</div>
 					<div className={styles.projectIconsDiv}>
 						<div>
-							<a href="https://robotics-inc.herokuapp.com/" target="_blank" rel="noreferrer">
-								<FontAwesomeIcon icon={faLink} className={styles.projectIcons} />
+							<a
+								href="https://robotics-inc.herokuapp.com/"
+								target="_blank"
+								rel="noreferrer"
+								className={styles.projectIcons}
+							>
+								<FontAwesomeIcon icon={faLink} />
 							</a>
-							<a href="https://github.com/ryanpsmith26/Robotics-Inc" target="_blank" rel="noreferrer">
-								<FontAwesomeIcon icon={faGithub} className={styles.projectIcons} />
+							<a
+								href="https://github.com/ryanpsmith26/Robotics-Inc"
+								target="_blank"
+								rel="noreferrer"
+								className={styles.projectIcons}
+							>
+								<FontAwesomeIcon icon={faGithub} />
 							</a>
 						</div>
 						{/* expand button inline with icons at small screens */}
@@ -206,9 +256,13 @@ const ProjectSection = () => {
 							className={styles.openCloseSmallScreen}
 						>
 							{expandRobotics ? (
-								<FontAwesomeIcon icon={faAngleUp} className={styles.openCloseIcon} />
+								<div className={styles.openCloseIcon}>
+									<FontAwesomeIcon icon={faAngleUp} />
+								</div>
 							) : (
-								<FontAwesomeIcon icon={faAngleDown} className={styles.openCloseIcon} />
+								<div className={styles.openCloseIcon}>
+									<FontAwesomeIcon icon={faAngleDown} />
+								</div>
 							)}
 						</button>
 					</div>
