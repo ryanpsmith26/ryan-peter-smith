@@ -40,8 +40,15 @@
   }
 }
 
-/* drop hero text sizes for small screens */
-@media (max-width: 375px) {
+
+@media screen and (max-width: 375px) {
+
+  /* move hero image to left at smaller screens */
+  .heroImg {
+    background-position: top left -100px;
+  }
+
+  /* drop hero text sizes for small screens */
   .heroTextDiv {
     font-size: 1.875rem;
   }
@@ -51,9 +58,3 @@
   }
 
 }
-
-/* @media (max-width: 500px) {
-  .heroImg {
-    background-position: top left;
-  }
-} */
