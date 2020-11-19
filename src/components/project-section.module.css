@@ -23,7 +23,7 @@
 .card>*:not(:last-child) {
   border-bottom: 2px solid #bfbfbf;
   padding-bottom: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 2.25em;
 }
 
 /* PROJECT HEADER AREA */
