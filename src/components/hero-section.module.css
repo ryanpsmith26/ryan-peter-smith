@@ -41,13 +41,7 @@
 }
 
 
-@media screen and (max-width: 375px) {
-
-  /* move hero image to left at smaller screens */
-  .heroImg {
-    background-position: top left -100px;
-  }
-
+@media (max-width: 375px) {
   /* drop hero text sizes for small screens */
   .heroTextDiv {
     font-size: 1.875rem;
