@@ -28,7 +28,6 @@ footer {
 .footerDiv>*:hover,
 .footerDiv>*:focus {
   opacity: 0.7;
-  /* color: inherit */
 }
 
 .footerDiv>*:focus {

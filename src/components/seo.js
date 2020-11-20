@@ -27,6 +27,7 @@ function SEO({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+  const heroImg = require("../images/logo/lightgray.png")
 
   return (
     <Helmet
@@ -68,6 +69,10 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          property: `og:image`,
+          content: heroImg,
+        }
       ].concat(meta)}
     />
   )
