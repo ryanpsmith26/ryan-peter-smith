@@ -27,7 +27,6 @@ function SEO({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
-  const heroImg = require("../images/logo/lightgray.png")
 
   return (
     <Helmet
@@ -71,7 +70,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: heroImg,
+          content: "https://ryanpsmith.dev/hero.jpeg",
         }
       ].concat(meta)}
     />
