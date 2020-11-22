@@ -680,7 +680,7 @@ code:after,
 tt:before,
 tt:after {
   letter-spacing: -0.2em;
-  content: " ";
+  /* content: " "; */
 }
 
 pre code:before,

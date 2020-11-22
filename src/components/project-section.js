@@ -358,7 +358,7 @@ const ProjectSection = () => {
 						this project, we further solidified our knowledge in{' '}
 						<strong>React, Redux, Express, Sequelize</strong> and <strong>PostgreSQL.</strong> This was my
 						first <u>group</u> project built from start to finish. The project helped to further solidify
-						knowledge in this stack, but also presented some new challeneges
+						knowledge in this stack, but also presented some new challenges
 						{expandGraceShopper && <span>.</span>}
 						{!expandGraceShopper && <span> .....</span>}
 					</p>
@@ -367,8 +367,7 @@ const ProjectSection = () => {
 							<p>
 								One interesting challenge was getting items in a guest user's cart to persist across
 								sessions. To achieve this feature, I took advantage of the npm package{' '}
-								<code className={styles.code}>local-storage</code>
-								to store data on the client side.
+								<code className={styles.code}>local-storage</code> to store data on the client side.
 							</p>
 							<p>
 								Additionally, I gained exposure managing a project as a team with{' '}

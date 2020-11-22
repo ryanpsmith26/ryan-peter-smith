@@ -67,10 +67,12 @@ const StorySection = () => {
 								<strong> But I was still working.</strong>
 							</p>
 							<p>
-								I’ve long had many passions and hobbies: [ cooking, brewing beer, roasting coffee,
-								health and fitness, music, woodworking, metalworking ], the list goes on. But they were
-								just that… hobbies. I didn’t see a clear path, that made sense for me, to turn those
-								things into a fulfilling career.
+								I’ve long had many hobbies:{' '}
+								<code>
+									[ 'cooking', 'brewing beer', 'roasting coffee', 'health and fitness', 'music',
+									'woodworking', 'metalworking' ]
+								</code>, the list goes on. But they were just that… hobbies. I didn’t see a clear path,
+								that made sense for me, to turn those things into a fulfilling career.
 							</p>
 							<p>
 								<strong>Enter coding.</strong> I started teaching myself to code at the end of 2019. I
@@ -97,14 +99,14 @@ const StorySection = () => {
 					{/* END LONG BIO */}
 					<p>
 						I’m incredibly excited as I begin my journey as a professional Software Engineer. I’m a Full
-						Stack Engineer with a passion for the front end. I appreciate elegant visual design, as much as
-						I do clean code. My attention to detail is innate, and bleeds into everything I do. I'm
-						constantly striving to better myself as an engineer and developer. Some tech that I'm highly
-						fond of includes React, Redux, React Native, CSS and Express. I’m eager to dive deeper, and gain
-						an even more fundamental knowledge, in these (and similar!) tools. I'm also always on the look
-						out for opportunities to learn brand new languages and technologies. My goal is to be{' '}
-						<strong>the best engineer I can possibly be</strong>, working on tools and products that I
-						believe in!
+						Stack Engineer with a love for the frontend, I also love to get my hands dirty in the backend. I
+						appreciate elegant visual design, as much as I do clean code. My attention to detail is innate,
+						and bleeds into everything I do. I'm constantly striving to better myself as an engineer and
+						developer. Some tech that I'm highly fond of includes React, Redux, CSS and Express. I’m eager
+						to dive deeper, and gain an even more fundamental knowledge, in these (and similar!) tools. I'm
+						also always on the look out for opportunities to learn brand new languages and technologies. My
+						goal is to be <strong>the best engineer I can possibly be</strong>, working on tools and
+						products that I believe in!
 					</p>
 					{/* CLOSE LONG BIO BTN */}
 					{displayLongBio && (
