@@ -46,7 +46,8 @@
 }
 
 @media (max-width: 660px) {
-  .timelineSectionDiv h3 {
+  .timelineSectionDiv h3,
+  .timelineSectionDiv a {
     font-size: 0.875rem;
   }
 
