@@ -99,14 +99,14 @@ const StorySection = () => {
 					{/* END LONG BIO */}
 					<p>
 						I’m incredibly excited as I begin my journey as a professional Software Engineer. I’m a Full
-						Stack Engineer with a love for the frontend, I also love to get my hands dirty in the backend. I
-						appreciate elegant visual design, as much as I do clean code. My attention to detail is innate,
-						and bleeds into everything I do. I'm constantly striving to better myself as an engineer and
-						developer. Some tech that I'm highly fond of includes React, Redux, CSS and Express. I’m eager
-						to dive deeper, and gain an even more fundamental knowledge, in these (and similar!) tools. I'm
-						also always on the look out for opportunities to learn brand new languages and technologies. My
-						goal is to be <strong>the best engineer I can possibly be</strong>, working on tools and
-						products that I believe in!
+						Stack Engineer with a love for the frontend, but I also love to get my hands dirty in the
+						backend. I appreciate elegant visual design, as much as I do clean code. My attention to detail
+						is innate, and bleeds into everything I do. I'm constantly striving to better myself as an
+						engineer and developer. Some tech that I'm highly fond of includes React, Redux, CSS and
+						Express. I’m eager to dive deeper, and gain an even more fundamental knowledge, in these (and
+						similar!) tools. I'm also always on the look out for opportunities to learn brand new languages
+						and technologies. My goal is to be <strong>the best engineer I can possibly be</strong>, working
+						on tools and products that I believe in!
 					</p>
 					{/* CLOSE LONG BIO BTN */}
 					{displayLongBio && (

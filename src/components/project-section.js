@@ -112,6 +112,7 @@ const ProjectSection = () => {
 								host the image files. This way we could simply store the uri provided by Cloudinary, in
 								our own backend, and fetch them as needed.
 							</p>
+							<p>Check out our video demo of the app!</p>
 							{/* COOK'D DEMO EMBEDDED VIDEO */}
 							<div
 								style={{
@@ -284,11 +285,24 @@ const ProjectSection = () => {
 						{!expandRobotics && <span> .....</span>}
 					</p>
 					{expandRobotics && (
-						<p>
-							This my first full stack web app built from start to finish. It served me by really helping
-							to solidify all of the concepts, at every level of the stack, that I had learned in the
-							prior six weeks or so.
-						</p>
+						<React.Fragment>
+							<p>
+								This my first full stack web app built from start to finish. It served me by really
+								helping to solidify all of the concepts, at every level of the stack, that I had learned
+								in the prior six weeks or so.
+							</p>
+							<p>
+								Style was not a priority for this short learning project. For a better representation of
+								how I write CSS and implement responsive design, check out the{' '}
+								<a
+									href="https://github.com/ryanpsmith26/ryan-peter-smith"
+									target="_blank"
+									rel="noreferrer"
+								>
+									code for the site you're currently on!
+								</a>
+							</p>
+						</React.Fragment>
 					)}
 				</div>
 				{/* GRACE SHOPPER ========================================================== */}
@@ -372,6 +386,17 @@ const ProjectSection = () => {
 							<p>
 								Additionally, I gained exposure managing a project as a team with{' '}
 								<strong>GitHub Organizations, Projects, Issues, Pull Requests, etc.</strong>
+							</p>
+							<p>
+								As with Robotics Inc., style was not a priority for this short learning project. For a
+								better representation of how I write CSS and implement responsive design, check out the{' '}
+								<a
+									href="https://github.com/ryanpsmith26/ryan-peter-smith"
+									target="_blank"
+									rel="noreferrer"
+								>
+									code for the site you're currently on!
+								</a>
 							</p>
 						</React.Fragment>
 					)}
