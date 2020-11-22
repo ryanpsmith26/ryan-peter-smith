@@ -37,6 +37,13 @@ const ExperienceSection = () => {
 							<h3 className="vertical-timeline-element-title">Acme Smoked Fish Corp.</h3>
 							<h4 className="vertical-timeline-element-subtitle">Brooklyn, NY</h4>
 							<p>Plant Engineer | Maintenance Manager</p>
+							<a
+								href="https://drive.google.com/file/d/11gUI3s0iBRkWkc5GZKaUOcLbCCHtwNtc/view?usp=sharing"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Letter of Recommendation
+							</a>
 						</div>
 					</div>
 				</VerticalTimelineElement>
