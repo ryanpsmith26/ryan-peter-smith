@@ -35,6 +35,8 @@
     "typewriter-effect": "^2.13.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "babel-loader": "^8.2.2",
     "prettier": "2.1.2"
   },
   "keywords": [

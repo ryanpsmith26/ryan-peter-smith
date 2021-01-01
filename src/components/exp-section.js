@@ -10,6 +10,18 @@ const ExperienceSection = () => {
 		<div className={styles.timelineSectionDiv} id="experience">
 			<h1 className={styles.sectionHeader}>-- Experience --</h1>
 			<VerticalTimeline>
+				{/* AGNOSTACK --------------------------------------------------------------- */}
+				<VerticalTimelineElement
+					className="vertical-timeline-element--work"
+					contentStyle={styles_.card}
+					contentArrowStyle={styles_.cardArrow}
+					date="December 2020 - Present"
+					icon={<img src={require('../images/agnoStack.png')} className={styles.iconImg} alt="" />}
+				>
+					<h3 className="vertical-timeline-element-title">agnoStack</h3>
+					<h4 className="vertical-timeline-element-subtitle">Chicago, IL</h4>
+					<p>Full Stack Software Engineer</p>
+				</VerticalTimelineElement>
 				{/* FULLSTACK -------------------------------------------------------------- */}
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
@@ -36,7 +48,7 @@ const ExperienceSection = () => {
 						<div>
 							<h3 className="vertical-timeline-element-title">Acme Smoked Fish Corp.</h3>
 							<h4 className="vertical-timeline-element-subtitle">Brooklyn, NY</h4>
-							<p>Plant Engineer | Maintenance Manager</p>
+							<p>Plant Engineer</p>
 							<a
 								href="https://drive.google.com/file/d/11gUI3s0iBRkWkc5GZKaUOcLbCCHtwNtc/view?usp=sharing"
 								target="_blank"
