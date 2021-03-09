@@ -75,11 +75,11 @@ const StorySection = () => {
 								that made sense for me, to turn those things into a fulfilling career.
 							</p>
 							<p>
-								<strong>Enter coding.</strong> I started teaching myself to code at the end of 2019. I
-								very quickly grew to love it. I loved what I was able to build. I loved learning new
-								tools to make my projects look beautiful and professional. I loved that it was always a
-								puzzle. And above all, I loved learning <strong>the mechanics</strong> behind how this
-								thing worked that I had used for so many years... the web.
+								<strong>Enter coding.</strong> I started teaching myself to code in 2019. I very quickly
+								grew to love it. I loved what I was able to build. I loved learning new tools to make my
+								projects look beautiful and professional. I loved that it was always a puzzle. And above
+								all, I loved learning <strong>the mechanics</strong> behind how this thing worked that I
+								had used for so many years... the web.
 							</p>
 							<p>
 								{' '}
@@ -87,26 +87,25 @@ const StorySection = () => {
 								the best path for myself to make a final career change. I landed on the bootcamp route,
 								and was soon admitted to Fullstack Academy’s Software Engineering Immersive.{' '}
 								<strong>This proved to be the best decision I’ve ever made in my life.</strong> I
-								enjoyed every second of it, grueling as it was at times. I saw some students
-								occasionally get discouraged and beaten down by the intense program. But for me, it was
-								not work. I knew what it was like to put in long hours on something that I didn’t deeply
-								connect with. For me, this was not that. I woke up everyday excited to learn and to
-								build new things. My love of development drove me forward, during this demanding
-								program. I know that it will continue to do so in my new career.
+								enjoyed every second of it, grueling as it was at times. Along the ride, I saw some
+								students occasionally get discouraged and beaten down by the intense program. But for
+								me, it was not work. I knew what it was like to put in long hours on something that I
+								didn’t deeply connect with. <i>This was not that.</i> I woke up everyday excited to
+								learn and to build new things. My love of development drove me forward, during that
+								demanding program, as it's continued to do so through my new career.
 							</p>
 						</div>
 					)}
 					{/* END LONG BIO */}
 					<p>
-						I’m incredibly excited as I begin my journey as a professional Software Engineer. I’m a Full
-						Stack Engineer with a love for the frontend, but I also love to get my hands dirty in the
-						backend. I appreciate elegant visual design, as much as I do clean code. My attention to detail
-						is innate, and bleeds into everything I do. I'm constantly striving to better myself as an
-						engineer and developer. Some tech that I'm highly fond of includes React, Redux, CSS and
-						Express. I’m eager to dive deeper, and gain an even more fundamental knowledge, in these (and
-						similar!) tools. I'm also always on the look out for opportunities to learn brand new languages
-						and technologies. My goal is to be <strong>the best engineer I can possibly be</strong>, working
-						on tools and products that I believe in!
+						I'm a Full Stack Engineer with a background in Mechanical Engineering. My coding experience is
+						rooted in full stack JavaScript, building web and mobile applications. Whether it's crafting a
+						beautiful UI with React or writing up a REST API with Express, I'm obsessed. I'm constantly
+						thriving to be better, and am always on the lookout for new tech, to tackle the problem at hand.
+						I credit finding software later in my career, as the reason to why I connect so deeply with it.
+						If you know what it feels like to dedicate your life to something you don't love, you can better
+						appreciate the thing that you do, when you find it. I'm always looking to get better in my
+						craft, with the end goal of being <strong>the best engineer I can possibly be</strong>.
 					</p>
 					{/* CLOSE LONG BIO BTN */}
 					{displayLongBio && (

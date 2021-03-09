@@ -18,8 +18,11 @@ const ExperienceSection = () => {
 					date="December 2020 - Present"
 					icon={<img src={require('../images/agnoStack.png')} className={styles.iconImg} alt="" />}
 				>
-					<h3 className="vertical-timeline-element-title">agnoStack</h3>
+					<a href="https://agnostack.com/" target="_blank" rel="noreferrer">
+						<h3 className="vertical-timeline-element-title">agnoStack</h3>
+					</a>
 					<h4 className="vertical-timeline-element-subtitle">Chicago, IL</h4>
+					<p style={styles_.description}>"Platform agnostic omni-channel e-commerce solution."</p>
 					<p>Full Stack Software Engineer</p>
 				</VerticalTimelineElement>
 				{/* FULLSTACK -------------------------------------------------------------- */}
@@ -109,5 +112,8 @@ const styles_ = {
 	},
 	icon: {
 		background: '#fff'
+	},
+	description: {
+		fontStyle: 'italic'
 	}
 };
