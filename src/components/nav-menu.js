@@ -1,7 +1,7 @@
 import React from 'react';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
-import NavDropdown from './nav-dropdown';
+// import NavDropdown from './nav-dropdown';
 import styles from './nav-menu.module.css';
 
 const NavMenu = () => {
@@ -31,9 +31,7 @@ const NavMenu = () => {
 					</li>
 				</ul>
 			</div>
-			<div className={styles.hideMenuIcon}>
-				<NavDropdown className={styles.menuIcon} />
-			</div>
+			<div className={styles.hideMenuIcon}>{/* <NavDropdown className={styles.menuIcon} /> */}</div>
 		</React.Fragment>
 	);
 };
