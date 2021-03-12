@@ -100,7 +100,7 @@ const StorySection = () => {
 					<p>
 						I'm a Full Stack Engineer with a background in Mechanical Engineering. My coding experience is
 						rooted in full stack JavaScript building web and mobile applications. Whether it's crafting a
-						beautiful UI with React or writing up a REST API with Express, I can't get enough. When I'm not
+						beautiful UI with React, or writing up a REST API with Express, I can't get enough. When I'm not
 						honing my skills in the tech that I know and love, I'm looking at new tools to best tackle the
 						problem at hand. I credit finding software later in my career, as the reason to why I connect so
 						deeply with it. If you know what it feels like to dedicate your life to something you don't
