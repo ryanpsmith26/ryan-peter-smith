@@ -23,7 +23,7 @@ const ExperienceSection = () => {
 					</a>
 					<h4 className="vertical-timeline-element-subtitle">Chicago, IL</h4>
 					<p style={styles_.description}>"Platform agnostic omni-channel e-commerce solution."</p>
-					<p>Full Stack Software Engineer</p>
+					<p>Full Stack Engineer</p>
 				</VerticalTimelineElement>
 				{/* FULLSTACK -------------------------------------------------------------- */}
 				<VerticalTimelineElement

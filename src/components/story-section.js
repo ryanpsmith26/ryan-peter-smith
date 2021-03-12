@@ -99,13 +99,14 @@ const StorySection = () => {
 					{/* END LONG BIO */}
 					<p>
 						I'm a Full Stack Engineer with a background in Mechanical Engineering. My coding experience is
-						rooted in full stack JavaScript, building web and mobile applications. Whether it's crafting a
-						beautiful UI with React or writing up a REST API with Express, I'm obsessed. I'm constantly
-						thriving to be better, and am always on the lookout for new tech, to tackle the problem at hand.
-						I credit finding software later in my career, as the reason to why I connect so deeply with it.
-						If you know what it feels like to dedicate your life to something you don't love, you can better
-						appreciate the thing that you do, when you find it. I'm always looking to get better in my
-						craft, with the end goal of being <strong>the best engineer I can possibly be</strong>.
+						rooted in full stack JavaScript building web and mobile applications. Whether it's crafting a
+						beautiful UI with React or writing up a REST API with Express, I can't get enough. When I'm not
+						honing my skills in the tech that I know and love, I'm looking at new tools to best tackle the
+						problem at hand. I credit finding software later in my career, as the reason to why I connect so
+						deeply with it. If you know what it feels like to dedicate your life to something you don't
+						love, you can better appreciate it, when you find the thing that you do. I'm constantly looking
+						to be better in my craft, with the end goal of being{' '}
+						<strong>the best engineer I can possibly be</strong>.
 					</p>
 					{/* CLOSE LONG BIO BTN */}
 					{displayLongBio && (
