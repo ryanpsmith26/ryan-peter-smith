@@ -21,7 +21,6 @@ const Header = () => {
 						src={require('../images/logo/lightgray.png')}
 						alt="logo"
 						className={styles.logoImg}
-						alt="logo"
 					/>
 				</button>
 			</div>

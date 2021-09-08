@@ -42,9 +42,8 @@
 }
 
 
+/* drop hero text sizes for small screens */
 @media (max-width: 375px) {
-
-  /* drop hero text sizes for small screens */
   .heroTextDiv {
     font-size: 1.875rem;
   }

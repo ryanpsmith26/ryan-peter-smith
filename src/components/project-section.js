@@ -242,14 +242,14 @@ const ProjectSection = () => {
 					</div>
 					<div className={styles.projectIconsDiv}>
 						<div>
-							<a
+							{/* <a
 								href="https://robotics-inc.herokuapp.com/"
 								target="_blank"
 								rel="noreferrer"
 								className={styles.projectIcons}
 							>
 								<FontAwesomeIcon icon={faLink} />
-							</a>
+							</a> */}
 							<a
 								href="https://github.com/ryanpsmith26/Robotics-Inc"
 								target="_blank"
@@ -332,14 +332,14 @@ const ProjectSection = () => {
 					</div>
 					<div className={styles.projectIconsDiv}>
 						<div>
-							<a
+							{/* <a
 								href="https://cereal-grace-shopper.herokuapp.com/"
 								target="_blank"
 								rel="noreferrer"
 								className={styles.projectIcons}
 							>
 								<FontAwesomeIcon icon={faLink} />
-							</a>
+							</a> */}
 							<a
 								href="https://github.com/Rice-Krispy-Grace-Shopper/Grace-Shopper"
 								target="_blank"
