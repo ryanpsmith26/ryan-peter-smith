@@ -60,18 +60,17 @@ const StorySection = () => {
 								for three.
 							</p>
 							<p>
-								I loved learning the mechanics of things, but something was missing. My Dad raised me to
+								I loved learning the mechanics of things, but something was missing. I was raised to
 								understand that if you enjoy what you do for work, you’ll never work a day in your life.
-								At both of my companies, I was good at what I was doing and enjoyed the things that I
-								learned.
+								In my previous career, I was good at what I did, and I appreciate all that I learned.
 								<strong> But I was still working.</strong>
 							</p>
 							<p>
 								I’ve long had many hobbies:{' '}
 								<code>
-									[ 'cooking', 'brewing beer', 'roasting coffee', 'health and fitness', 'music',
-									'woodworking', 'metalworking' ]
-								</code>, the list goes on. But they were just that… hobbies. I didn’t see a clear path,
+									['cooking', 'brewing beer', 'roasting coffee', 'health and fitness', 'music',
+									'woodworking', 'metalworking']
+								</code>, the array goes on. But they were just that… hobbies. I didn’t see a clear path,
 								that made sense for me, to turn those things into a fulfilling career.
 							</p>
 							<p>
@@ -87,12 +86,12 @@ const StorySection = () => {
 								the best path for myself to make a final career change. I landed on the bootcamp route,
 								and was soon admitted to Fullstack Academy’s Software Engineering Immersive.{' '}
 								<strong>This proved to be the best decision I’ve ever made in my life.</strong> I
-								enjoyed every second of it, grueling as it was at times. Along the ride, I saw some
+								enjoyed every second of it. Along the ride, I saw some
 								students occasionally get discouraged and beaten down by the intense program. But for
-								me, it was not work. I knew what it was like to put in long hours on something that I
+								me, grueling as it was at times, it was not work. I knew what it was like to put in long hours on something that I
 								didn’t deeply connect with. <i>This was not that.</i> I woke up everyday excited to
 								learn and to build new things. My love of development drove me forward, during that
-								demanding program, as it's continued to do so through my new career.
+								demanding program, and it has certainly continued to so, throughout my development career.
 							</p>
 						</div>
 					)}
@@ -100,7 +99,7 @@ const StorySection = () => {
 					<p>
 						I'm a Full Stack Engineer with a background in Mechanical Engineering. My coding experience is
 						rooted in full stack JavaScript building web and mobile applications. Whether it's crafting a
-						beautiful UI with React, or writing up a REST API with Express, I can't get enough. When I'm not
+						beautiful UI with React, or building RESTful APIs with Express, I can't get enough. When I'm not
 						honing my skills in the tech that I know and love, I'm looking at new tools to best tackle the
 						problem at hand. I credit finding software later in my career, as the reason to why I connect so
 						deeply with it. If you know what it feels like to dedicate your life to something you don't
