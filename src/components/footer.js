@@ -27,9 +27,6 @@ const Footer = () => {
 				<a href="https://github.com/ryanpsmith26" target="_blank" rel="noreferrer">
 					<FontAwesomeIcon icon={faGithub} />
 				</a>
-				<a href="https://twitter.com/ryanpsmith26" target="_blank" rel="noreferrer">
-					<FontAwesomeIcon icon={faTwitter} />
-				</a>
 			</div>
 		</footer>
 	);

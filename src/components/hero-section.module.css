@@ -12,16 +12,14 @@
 
 .heroTextDiv {
   position: absolute;
-  margin-top: 80px;
+  margin: 80px auto 0;
   color: #fff;
-  /* typewriter text: */
+  text-align: center;
   font-size: 2.5rem;
   font-family: monospace;
-  width: fit-content;
+  width: 100%;
   left: 0;
   right: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .heroTextDiv>h1 {
@@ -41,7 +39,6 @@
   }
 }
 
-
 /* drop hero text sizes for small screens */
 @media (max-width: 375px) {
   .heroTextDiv {
@@ -51,5 +48,4 @@
   .heroTextDiv>h1 {
     font-size: 2.125rem;
   }
-
 }

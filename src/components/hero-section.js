@@ -29,7 +29,7 @@ const HeroSection = () => {
 						backgroundColor={`#333`}
 					>
 						<div className={styles.heroTextDiv}>
-							<h1>Ryan P. Smith</h1>
+						<h1>Ryan P. Smith</h1>
 							<Typewriter
 								options={{
 									strings: [ 'Software Engineer', 'Maker', 'Home Brewer', 'Cook' ],

@@ -41,14 +41,14 @@ const ProjectSection = () => {
 					</div>
 					<div className={styles.projectIconsDiv}>
 						<div>
-							<a
+							{/* <a
 								href="https://expo.io/@cooked-capstone/projects/cooked"
 								target="_blank"
 								rel="noreferrer"
 								className={styles.projectIcons}
 							>
 								<FontAwesomeIcon icon={faLink} />
-							</a>
+							</a> */}
 							<a
 								href="https://github.com/Do-Jest-While-True"
 								target="_blank"
@@ -156,20 +156,20 @@ const ProjectSection = () => {
 					<div className={styles.projectIconsDiv}>
 						<div>
 							<a
-								href="https://precision-marble.com/"
-								target="_blank"
-								rel="noreferrer"
-								className={styles.projectIcons}
-							>
-								<FontAwesomeIcon icon={faLink} />
-							</a>
-							<a
 								href="https://github.com/ryanpsmith26/precision-marble"
 								target="_blank"
 								rel="noreferrer"
 								className={styles.projectIcons}
 							>
 								<FontAwesomeIcon icon={faGithub} />
+							</a>
+							<a
+								href="https://precision-marble.com/"
+								target="_blank"
+								rel="noreferrer"
+								className={styles.projectIcons}
+							>
+								<FontAwesomeIcon icon={faLink} />
 							</a>
 						</div>
 						{/* expand button inline with icons at small screens */}
@@ -205,11 +205,6 @@ const ProjectSection = () => {
 								I refactored the site to include grid, to get more practice. This project also helped me
 								get my start with VSC using <strong>Git</strong> and <strong>GitHub</strong>, as well as
 								deployment with <strong>Netlify</strong>.
-							</p>
-							<p>
-								With my bootcamp experience behind me, I plan to rebuild this site with React and
-								Gatsby. The goal is to a provide an even better user experience as well as improve
-								performance, especially with image loading, as the company and site grow.
 							</p>
 						</React.Fragment>
 					)}
@@ -291,17 +286,7 @@ const ProjectSection = () => {
 								helping to solidify all of the concepts, at every level of the stack, that I had learned
 								in the prior six weeks or so.
 							</p>
-							<p>
-								Style was not a priority for this short learning project. For a better representation of
-								how I write CSS and implement responsive design, check out the{' '}
-								<a
-									href="https://github.com/ryanpsmith26/ryan-peter-smith"
-									target="_blank"
-									rel="noreferrer"
-								>
-									code for the site you're currently on!
-								</a>
-							</p>
+							<i>*this application is no longer maintained</i>
 						</React.Fragment>
 					)}
 				</div>
@@ -387,17 +372,7 @@ const ProjectSection = () => {
 								Additionally, I gained exposure managing a project as a team with{' '}
 								<strong>GitHub Organizations, Projects, Issues, Pull Requests, etc.</strong>
 							</p>
-							<p>
-								As with Robotics Inc., style was not a priority for this short learning project. For a
-								better representation of how I write CSS and implement responsive design, check out the{' '}
-								<a
-									href="https://github.com/ryanpsmith26/ryan-peter-smith"
-									target="_blank"
-									rel="noreferrer"
-								>
-									code for the site you're currently on!
-								</a>
-							</p>
+							<i>*this application is no longer maintained</i>
 						</React.Fragment>
 					)}
 				</div>
