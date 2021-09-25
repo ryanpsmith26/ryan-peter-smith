@@ -24,12 +24,22 @@
   justify-content: space-around;
 }
 
-.techLogo {
+.techLogoLg {
+  width: 90px;
+  margin: 0 40px;
+}
+
+.techLogoMd {
   width: 80px;
   margin: 0 40px;
 }
 
 .techLogoSm {
+  width: 70px;
+  margin: 0 40px;
+}
+
+.techLogoXs {
   width: 60px;
   margin: 0 40px;
 }
