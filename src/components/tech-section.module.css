@@ -19,11 +19,6 @@
     0 30px 30px rgba(0, 0, 0, 0.045), 0 45px 45px rgba(0, 0, 0, 0.055);
 }
 
-.techLogos {
-  display: flex;
-  justify-content: space-around;
-}
-
 .techLogoXl {
   width: 100px;
   margin: 0 40px;
@@ -47,4 +42,31 @@
 .techLogoXs {
   width: 60px;
   margin: 0 40px;
+}
+
+@media (max-width: 500px) {
+  .techLogoXl {
+    width: 70px;
+    margin: 0 40px;
+  }
+
+  .techLogoLg {
+    width: 60px;
+    margin: 0 40px;
+  }
+
+  .techLogoMd {
+    width: 50px;
+    margin: 0 40px;
+  }
+
+  .techLogoSm {
+    width: 40px;
+    margin: 0 40px;
+  }
+
+  .techLogoXs {
+    width: 30px;
+    margin: 0 40px;
+  }
 }
