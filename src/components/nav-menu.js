@@ -15,6 +15,11 @@ const NavMenu = () => {
 					</li>
 					<li>
 						<div className={styles.menuBtn}>
+							<button onClick={() => scrollTo('#tech')}>Tech</button>
+						</div>
+					</li>
+					<li>
+						<div className={styles.menuBtn}>
 							<button onClick={() => scrollTo('#experience')}>Experience</button>
 						</div>
 					</li>
