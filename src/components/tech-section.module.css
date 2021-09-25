@@ -24,6 +24,11 @@
   justify-content: space-around;
 }
 
+.techLogoXl {
+  width: 100px;
+  margin: 0 40px;
+}
+
 .techLogoLg {
   width: 90px;
   margin: 0 40px;
