@@ -44,29 +44,29 @@
   margin: 0 40px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .techLogoXl {
     width: 70px;
-    margin: 0 40px;
+    margin: 0 23px;
   }
 
   .techLogoLg {
     width: 60px;
-    margin: 0 40px;
+    margin: 0 23px;
   }
 
   .techLogoMd {
     width: 50px;
-    margin: 0 40px;
+    margin: 0 23px;
   }
 
   .techLogoSm {
     width: 40px;
-    margin: 0 40px;
+    margin: 0 23px;
   }
 
   .techLogoXs {
     width: 30px;
-    margin: 0 40px;
+    margin: 0 23px;
   }
 }
