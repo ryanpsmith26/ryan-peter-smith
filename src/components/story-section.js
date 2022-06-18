@@ -40,8 +40,8 @@ const StorySection = () => {
 								would one day be an engineer. He would tell me the story of how he took me to an
 								amusement park, near our hometown, to bring me on my first rollercoaster ride. He was a
 								little concerned about how I would handle that first ride, small may it be. His worries
-								vanished as soon as it began. "You leaned over the side of the cart and stared at the
-								tracks in awe, the entire time,” he tells me. He says that I was more concerned with
+								vanished as soon as it began. <i>"You leaned over the side of the cart and stared at the
+								tracks in awe, the entire time,”</i> he tells me. He says that I was more concerned with
 								figuring out the mechanics of the ride than anything else. A decade or so later, I was
 								admitted to the Mechanical Engineering program at Stony Brook University.
 							</p>
@@ -83,7 +83,7 @@ const StorySection = () => {
 							<p>
 								{' '}
 								After about a month of some tutorials and building simple projects, I was looking into
-								the best path for myself to make a final career change. I landed on the bootcamp route,
+								the best path for myself to make a career change into software. I landed on the bootcamp route,
 								and was soon admitted to Fullstack Academy’s Software Engineering Immersive.{' '}
 								<strong>This proved to be the best decision I’ve ever made in my life.</strong> I
 								enjoyed every second of it. Along the ride, I saw some
@@ -91,7 +91,7 @@ const StorySection = () => {
 								me, grueling as it was at times, it was not work. I knew what it was like to put in long hours on something that I
 								didn’t deeply connect with. <i>This was not that.</i> I woke up everyday excited to
 								learn and to build new things. My love of development drove me forward, during that
-								demanding program, and it has certainly continued to so, throughout my development career.
+								demanding program, and it has certainly continued to so, throughout my software engineering career.
 							</p>
 						</div>
 					)}
