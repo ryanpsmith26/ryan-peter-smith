@@ -15,19 +15,19 @@ const NavMenu = () => {
 					</li>
 					<li>
 						<div className={styles.menuBtn}>
-							<button onClick={() => scrollTo('#tech')}>Tech</button>
-						</div>
-					</li>
-					<li>
-						<div className={styles.menuBtn}>
 							<button onClick={() => scrollTo('#experience')}>Experience</button>
 						</div>
 					</li>
 					<li>
 						<div className={styles.menuBtn}>
-							<button onClick={() => scrollTo('#projects')}>Projects</button>
+							<button onClick={() => scrollTo('#tech')}>Tech</button>
 						</div>
 					</li>
+					{/* <li>
+						<div className={styles.menuBtn}>
+							<button onClick={() => scrollTo('#projects')}>Projects</button>
+						</div>
+					</li> */}
 					<li>
 						<div className={styles.menuBtn}>
 							<button onClick={() => scrollTo('#footer')}>Contact</button>

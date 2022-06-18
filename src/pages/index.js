@@ -13,9 +13,9 @@ const IndexPage = () => (
 		<SEO title="Portfolio" />
 		<HeroSection />
 		<StorySection />
-		<TechSection />
 		<ExperienceSection />
-		<ProjectSection />
+		<TechSection />
+		{/* <ProjectSection /> */}
 	</Layout>
 );
 
