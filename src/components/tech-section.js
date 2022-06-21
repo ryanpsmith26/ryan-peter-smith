@@ -8,9 +8,9 @@ const TechSection = () => (
 		<h1 className={styles.sectionHeader}>-- Technology --</h1>
 		<div className={styles.card} id="tech">
 			<Marquee
-				speed={40}
+				speed={75}
 				gradientColor={[217, 217, 217]}
-				gradientWidth={75}
+				gradientWidth={50}
 			>
 					<img src={require('../images/html.svg')} alt="HTML5 Logo" className={styles.techLogoSm} />
 					<img src={require('../images/css.svg')} alt="CSS3 Logo" className={styles.techLogoSm} />
