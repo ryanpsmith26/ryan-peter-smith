@@ -21,7 +21,7 @@ const ExperienceSection = () => {
 					<a href="https://www.clicktripz.com/" target="_blank" rel="noreferrer">
 						<h3 className="vertical-timeline-element-title">Clicktripz</h3>
 					</a>
-					<h4 className="vertical-timeline-element-subtitle">Manhattan Beach, CA</h4>
+					<h4 className="vertical-timeline-element-subtitle">Manhattan Beach, CA (Remote)</h4>
 					<p style={styles_.description}>"Travel technology company that builds innovative software solutions to serve the needs of suppliers, publishers, advertisers and travelers."</p>
 					<p>Software Engineer</p>
 				</VerticalTimelineElement>
@@ -36,7 +36,7 @@ const ExperienceSection = () => {
 					<a href="https://agnostack.com/" target="_blank" rel="noreferrer">
 						<h3 className="vertical-timeline-element-title">agnoStack</h3>
 					</a>
-					<h4 className="vertical-timeline-element-subtitle">Chicago, IL</h4>
+					<h4 className="vertical-timeline-element-subtitle">Chicago, IL (Remote)</h4>
 					<p style={styles_.description}>"Platform agnostic omni-channel e-commerce solution."</p>
 					<p>Full Stack Engineer</p>
 				</VerticalTimelineElement>
@@ -49,7 +49,7 @@ const ExperienceSection = () => {
 					icon={<img src={require('../images/fsa-icon.png')} className={styles.iconImg} alt="" />}
 				>
 					<h3 className="vertical-timeline-element-title">Fullstack Academy of Code</h3>
-					<h4 className="vertical-timeline-element-subtitle">New York, NY</h4>
+					<h4 className="vertical-timeline-element-subtitle">New York, NY (Remote)</h4>
 					<p>
 						Certificate in Full Stack Web Development, <strong>Software Engineering</strong>
 					</p>
