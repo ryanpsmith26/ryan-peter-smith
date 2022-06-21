@@ -10,12 +10,27 @@ const ExperienceSection = () => {
 		<div className={styles.timelineSectionDiv} id="experience">
 			<h1 className={styles.sectionHeader}>-- Experience --</h1>
 			<VerticalTimeline>
+				{/* CLICKTRIPZ --------------------------------------------------------------- */}
+				<VerticalTimelineElement
+					className="vertical-timeline-element--work"
+					contentStyle={styles_.card}
+					contentArrowStyle={styles_.cardArrow}
+					date="July 2022 - Present"
+					icon={<img src={require('../images/clicktripz.jpg')} className={styles.iconImg} alt="" />}
+				>
+					<a href="https://www.clicktripz.com/" target="_blank" rel="noreferrer">
+						<h3 className="vertical-timeline-element-title">Clicktripz</h3>
+					</a>
+					<h4 className="vertical-timeline-element-subtitle">Manhattan Beach, CA</h4>
+					<p style={styles_.description}>"Travel technology company that builds innovative software solutions to serve the needs of suppliers, publishers, advertisers and travelers."</p>
+					<p>Software Engineer</p>
+				</VerticalTimelineElement>
 				{/* AGNOSTACK --------------------------------------------------------------- */}
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
 					contentStyle={styles_.card}
 					contentArrowStyle={styles_.cardArrow}
-					date="December 2020 - Present"
+					date="December 2020 - July 2022"
 					icon={<img src={require('../images/agnoStack.png')} className={styles.iconImg} alt="" />}
 				>
 					<a href="https://agnostack.com/" target="_blank" rel="noreferrer">
