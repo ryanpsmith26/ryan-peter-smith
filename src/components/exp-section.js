@@ -44,7 +44,7 @@ const ExperienceSection = () => {
                         software solutions to serve the needs of suppliers,
                         publishers, advertisers and travelers."
                     </p>
-                    <p>Software Engineer</p>
+                    <p>Senior Software Engineer</p>
                 </VerticalTimelineElement>
                 {/* AGNOSTACK --------------------------------------------------------------- */}
                 <VerticalTimelineElement
