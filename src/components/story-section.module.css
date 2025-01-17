@@ -1,116 +1,117 @@
 /* STORY SECTION */
 
 .card {
-  min-height: 380px;
-  margin: 0 auto;
-  background-color: #d9d9d9;
-  width: 90%;
-  max-width: 1000px;
-  padding: 2em;
-  border-radius: 20px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.025), 0 5px 2px rgba(0, 0, 0, 0.025), 0 15px 15px rgba(0, 0, 0, 0.035),
-    0 30px 30px rgba(0, 0, 0, 0.045), 0 45px 45px rgba(0, 0, 0, 0.055);
+    min-height: 380px;
+    margin: 0 auto;
+    background-color: #d9d9d9;
+    width: 90%;
+    max-width: 1000px;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.025), 0 5px 2px rgba(0, 0, 0, 0.025),
+        0 15px 15px rgba(0, 0, 0, 0.035), 0 30px 30px rgba(0, 0, 0, 0.045),
+        0 45px 45px rgba(0, 0, 0, 0.055);
 }
 
 .sectionHeader {
-  padding: 50px 0;
-  margin: 0;
-  color: #bfbfbf;
-  text-align: center;
-  font-family: 'Saira';
+    padding: 50px 0;
+    margin: 0;
+    color: #bfbfbf;
+    text-align: center;
+    font-family: 'Saira';
 }
 
 .portraitImg {
-  float: left;
-  width: 275px;
-  height: 275px;
-  margin: 0 2em 1.5em 0;
-  border-radius: 10px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.025), 0 5px 2px rgba(0, 0, 0, 0.025), 0 15px 15px rgba(0, 0, 0, 0.035),
-    0 30px 30px rgba(0, 0, 0, 0.045), 0 45px 45px rgba(0, 0, 0, 0.055);
+    float: left;
+    width: 275px;
+    height: 275px;
+    margin: 0 2em 1.5em 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.025), 0 5px 2px rgba(0, 0, 0, 0.025),
+        0 15px 15px rgba(0, 0, 0, 0.035), 0 30px 30px rgba(0, 0, 0, 0.045),
+        0 45px 45px rgba(0, 0, 0, 0.055);
 }
 
 .bioBtnDiv {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
 }
 
 .bioBtn {
-  background: none;
-  border: none;
-  color: inherit;
-  border: none;
-  border-radius: 50px;
-  padding: 0.25em 1em;
+    background: none;
+    border: none;
+    color: inherit;
+    border: none;
+    border-radius: 50px;
+    padding: 0.25em 1em;
 }
 
 .bioBtnHighlight {
-  background-color: #bfbfbf;
-  border: 1px solid #404040;
+    background-color: #bfbfbf;
+    border: 1px solid #404040;
 }
 
 .bioBtn:hover,
 .bioBtn:focus {
-  background-color: #bfbfbf;
+    background-color: #bfbfbf;
 }
 
 .bioBtn:focus {
-  outline: none
+    outline: none;
 }
 
-
-.bioBtn>h2 {
-  margin: 0
+.bioBtn > h2 {
+    margin: 0;
 }
 
 .refLetterLink {
-  color: #3a43c2;
+    color: #3a43c2;
 }
 
 .refLetterLink:hover,
 .refLetterLink:focus {
-  color: #272e87;
+    color: #272e87;
 }
 
 .closeLongBio {
-  display: block;
-  margin: 0 auto 0.25em;
-  padding: 0;
-  font-size: 3rem;
-  color: #404040;
-  border-radius: 50px;
-  width: 50px;
-  height: 50px;
+    display: block;
+    margin: 0 auto 0.25em;
+    padding: 0;
+    font-size: 2rem;
+    color: #404040;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
 }
 
 .closeLongBio:hover,
 .closeLongBio:focus {
-  background-color: #bfbfbf;
+    background-color: #bfbfbf;
 }
 
 /* STORY SECTION - MEDIA QUERIES */
 
 @media (max-width: 850px) {
-  /* drop bio btn sizes when they start to touch */
-  .bioBtn>h2 {
-    font-size: 1.125rem;
-  }
+    /* drop bio btn sizes when they start to touch */
+    .bioBtn > h2 {
+        font-size: 1.125rem;
+    }
 }
 
 @media (max-width: 660px) {
-  /* remove card effect at smaller screens */
-  .card {
-    margin: 0 0 2em;
-    padding: 1em;
-    width: 100%;
-    border-radius: 0;
-  }
+    /* remove card effect at smaller screens */
+    .card {
+        margin: 0 0 2em;
+        padding: 1em;
+        width: 100%;
+        border-radius: 0;
+    }
 
-  /* stack image on top / no wrap */
-  .portraitImg {
-    float: none;
-    display: block;
-    margin: 0 auto 2em;
-  }
+    /* stack image on top / no wrap */
+    .portraitImg {
+        float: none;
+        display: block;
+        margin: 0 auto 2em;
+    }
 }
