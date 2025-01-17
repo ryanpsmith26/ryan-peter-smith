@@ -1,2 +1,2 @@
-import 'typeface-roboto';
-import 'typeface-saira';
+import 'typeface-roboto'
+import 'typeface-saira'
