@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleUp, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
-import styles from './footer.module.css'
+import * as styles from './footer.module.css'
 
 const Footer = () => {
     const scrollTop = () => {

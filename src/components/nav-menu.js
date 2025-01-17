@@ -1,7 +1,7 @@
 import React from 'react'
 import scrollTo from 'gatsby-plugin-smoothscroll'
 
-import styles from './nav-menu.module.css'
+import * as styles from './nav-menu.module.css'
 
 const NavMenu = () => {
     return (
@@ -29,13 +29,10 @@ const NavMenu = () => {
                             </button>
                         </div>
                     </li>
-                    {/* <li>
-						<div className={styles.menuBtn}>
-							<button onClick={() => scrollTo('#projects')}>Projects</button>
-						</div>
-					</li> */}
                     <li>
-                        <div className={styles.menuBtn}>
+                        <div
+                            className={`${styles.menuBtn} ${styles.menuBtnLast}`}
+                        >
                             <button onClick={() => scrollTo('#footer')}>
                                 Contact
                             </button>
@@ -43,8 +40,6 @@ const NavMenu = () => {
                     </li>
                 </ul>
             </div>
-            {/* TODO: fix dropdown */}
-            <div className={styles.hideMenuIcon} />
         </React.Fragment>
     )
 }

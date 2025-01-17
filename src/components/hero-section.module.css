@@ -1,51 +1,51 @@
 /* HERO SECTION */
 
 .heroImg {
-  position: relative;
-  z-index: -1;
-  width: 100%;
-  height: 100vh;
-  background-position: top center;
-  background-position-x: 30%;
-  background-size: cover;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    background-position: top center;
+    background-position-x: 30%;
+    background-size: cover;
 }
 
 .heroTextDiv {
-  position: absolute;
-  margin: 80px auto 0;
-  color: #fff;
-  text-align: center;
-  font-size: 2.5rem;
-  font-family: monospace;
-  width: 100%;
-  left: 0;
-  right: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 80px auto 0;
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: monospace;
+    width: 100%;
 }
 
-.heroTextDiv>h1 {
-  font-size: 2.75rem;
+.heroTextDiv > h1 {
+    font-size: 2.75rem;
 }
 
 /* HERO SECTION - MEDIA QUERIES */
 
 /* enlarge hero text sizes for large screens */
 @media (min-width: 750px) {
-  .heroTextDiv {
-    font-size: 3.875rem;
-  }
+    .heroTextDiv {
+        font-size: 3.875rem;
+    }
 
-  .heroTextDiv>h1 {
-    font-size: 4.3rem;
-  }
+    .heroTextDiv > h1 {
+        font-size: 4.3rem;
+    }
 }
 
 /* drop hero text sizes for small screens */
 @media (max-width: 375px) {
-  .heroTextDiv {
-    font-size: 1.875rem;
-  }
+    .heroTextDiv {
+        font-size: 1.875rem;
+    }
 
-  .heroTextDiv>h1 {
-    font-size: 2.125rem;
-  }
+    .heroTextDiv > h1 {
+        font-size: 2.125rem;
+    }
 }

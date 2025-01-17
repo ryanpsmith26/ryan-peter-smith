@@ -4,9 +4,10 @@ import {
     VerticalTimelineElement,
 } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
+import { StaticImage } from 'gatsby-plugin-image'
 
 // also see _styles below for timeline props
-import styles from './exp-section.module.css'
+import * as styles from './exp-section.module.css'
 
 const ExperienceSection = () => {
     return (
@@ -20,10 +21,12 @@ const ExperienceSection = () => {
                     contentArrowStyle={styles_.cardArrow}
                     date="July 2022 - Present"
                     icon={
-                        <img
-                            src={require('../images/clicktripz.jpg')}
+                        <StaticImage
+                            src="../images/clicktripz.jpg"
                             className={styles.iconImg}
-                            alt=""
+                            alt="Clicktripz"
+                            placeholder="blurred"
+                            layout="constrained"
                         />
                     }
                 >
@@ -53,10 +56,12 @@ const ExperienceSection = () => {
                     contentArrowStyle={styles_.cardArrow}
                     date="December 2020 - July 2022"
                     icon={
-                        <img
-                            src={require('../images/agnoStack.png')}
+                        <StaticImage
+                            src="../images/agnoStack.png"
                             className={styles.iconImg}
-                            alt=""
+                            alt="Agnostack"
+                            placeholder="blurred"
+                            layout="constrained"
                         />
                     }
                 >
@@ -84,10 +89,12 @@ const ExperienceSection = () => {
                     contentArrowStyle={styles_.cardArrow}
                     date="August 2020 - October 2020"
                     icon={
-                        <img
-                            src={require('../images/fsa-icon.png')}
+                        <StaticImage
+                            src="../images/fsa-icon.png"
                             className={styles.iconImg}
-                            alt=""
+                            alt="Fullstack Academy"
+                            placeholder="blurred"
+                            layout="constrained"
                         />
                     }
                 >
@@ -109,14 +116,16 @@ const ExperienceSection = () => {
                     contentArrowStyle={styles_.cardArrow}
                     date="August 2017 - July 2020"
                     icon={
-                        <img
-                            src={require('../images/acme-a.jpg')}
+                        <StaticImage
+                            src="../images/acme-a.jpg"
                             className={styles.iconImg}
-                            alt=""
+                            alt="Acme Smoked Fish"
+                            placeholder="blurred"
+                            layout="constrained"
                         />
                     }
                 >
-                    <div className={styles.cardDiv}>
+                    <div>
                         <div>
                             <h3 className="vertical-timeline-element-title">
                                 Acme Smoked Fish Corp.
@@ -142,10 +151,12 @@ const ExperienceSection = () => {
                     contentArrowStyle={styles_.cardArrow}
                     date="November 2015 - July 2017"
                     icon={
-                        <img
-                            src={require('../images/emtec-new.jpeg')}
+                        <StaticImage
+                            src="../images/emtec-new.jpeg"
                             className={styles.iconImg}
-                            alt=""
+                            alt="Emtec Consulting Engineers"
+                            placeholder="blurred"
+                            layout="constrained"
                         />
                     }
                 >
@@ -164,10 +175,12 @@ const ExperienceSection = () => {
                     contentArrowStyle={styles_.cardArrow}
                     date="2011-2015"
                     icon={
-                        <img
-                            src={require('../images/sbu-sq-white.jpg')}
+                        <StaticImage
+                            src="../images/sbu-sq-white.jpg"
                             className={styles.iconImgSBU}
-                            alt=""
+                            alt="Stony Brook University"
+                            placeholder="blurred"
+                            layout="constrained"
                         />
                     }
                     iconStyle={styles_.icon}
@@ -186,10 +199,12 @@ const ExperienceSection = () => {
                 {/* RPS ICON ------------------------------------------- */}
                 <VerticalTimelineElement
                     icon={
-                        <img
-                            src={require('../images/coaster.jpg')}
+                        <StaticImage
+                            src="../images/coaster.jpg"
                             className={styles.iconImg}
-                            alt=""
+                            alt="RPS"
+                            placeholder="blurred"
+                            layout="constrained"
                         />
                     }
                     iconStyle={styles_.icon}

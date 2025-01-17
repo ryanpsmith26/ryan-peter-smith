@@ -1,36 +1,40 @@
 /* NAV MENU */
 
 ul {
-  display: flex;
+    display: flex;
 }
 
 li {
-  list-style: none
+    list-style: none;
 }
 
 .menuBtn {
-  font-family: 'Saira';
-  font-weight: bold;
-  background-color: #d9d9d9;
-  padding: 0.55em 1.5em;
-  border-radius: 30px;
+    font-family: 'Saira';
+    font-weight: bold;
+    background-color: #d9d9d9;
+    padding: 0.55em 1.5em;
+    border-radius: 30px;
+}
+
+.menuBtnLast {
+    margin-right: 20px;
 }
 
 .menuBtn:hover,
 .menuBtn:focus {
-  background-color: #bfbfbf;
+    background-color: #bfbfbf;
 }
 
 /* NAV MENU - MEDIA QUERIES */
 
-@media (max-width: 600px) {
-  .hideFullMenu {
-    display: none
-  }
+@media (max-width: 650px) {
+    .hideFullMenu {
+        display: none;
+    }
 }
 
-@media (min-width: 600px) {
-  .hideMenuIcon {
-    display: none
-  }
+@media (min-width: 650px) {
+    .hideMenuIcon {
+        display: none;
+    }
 }

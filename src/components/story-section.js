@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
+import { StaticImage } from 'gatsby-plugin-image'
 import scrollTo from 'gatsby-plugin-smoothscroll'
 
-import styles from './story-section.module.css'
+import * as styles from './story-section.module.css'
 
 const StorySection = () => {
     const [displayLongBio, setDisplayLongBio] = useState(false)
-    // consider refactoring these styles
     const shortBioBtnHighlight = !displayLongBio && styles.bioBtnHighlight
     const longBioBtnHighlight = displayLongBio && styles.bioBtnHighlight
 
@@ -13,13 +13,16 @@ const StorySection = () => {
         <div id="story">
             <h1 className={styles.sectionHeader}>-- My Story --</h1>
             <div className={styles.card} id="story">
-                <img
-                    src={require('../images/portrait.jpeg')}
-                    alt="portrait"
-                    className={styles.portraitImg}
-                />
-                <div className={styles.story}>
-                    {/* SWITCHING BTNS */}
+                <div>
+                    <StaticImage
+                        src="../images/portrait.jpeg"
+                        alt="portrait"
+                        className={styles.portraitImg}
+                        placeholder="blurred"
+                        layout="constrained"
+                    />
+                </div>
+                <div>
                     <div className={styles.bioBtnDiv}>
                         <button
                             type="button"
@@ -36,7 +39,6 @@ const StorySection = () => {
                             <h2>Long Bio</h2>
                         </button>
                     </div>
-                    {/* LONG BIO */}
                     {displayLongBio && (
                         <div>
                             <p>
@@ -137,7 +139,6 @@ const StorySection = () => {
                             </p>
                         </div>
                     )}
-                    {/* END LONG BIO */}
                     <p>
                         I'm a Full Stack Engineer with a background in
                         Mechanical Engineering. My coding experience is rooted
@@ -155,9 +156,7 @@ const StorySection = () => {
                         with the end goal of being{' '}
                         <strong>the best engineer I can possibly be</strong>.
                     </p>
-                    {/* CLOSE LONG BIO BTN */}
                     {displayLongBio && (
-                        // consider refactoring to an icon
                         <button
                             onClick={() => {
                                 scrollTo('#story')

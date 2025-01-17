@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import HeroSection from '../components/hero-section'
 import StorySection from '../components/story-section'
 import TechSection from '../components/tech-section'
@@ -9,7 +9,7 @@ import ExperienceSection from '../components/exp-section'
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Portfolio" />
+        <Seo title="Portfolio" />
         <HeroSection />
         <StorySection />
         <ExperienceSection />
